@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Project Data
+# =========================
+
+# Raw datasets
+data/raw/
+
+# Processed/generated datasets
+data/processed/
+
+# =========================
+# Vector Stores
+# =========================
+
+vectorstore/
+
+# =========================
+# HuggingFace / ML caches
+# =========================
+
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# =========================
+# Experiment outputs
+# =========================
+
+experiments/results/
+experiments/logs/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
