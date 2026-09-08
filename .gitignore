@@ -59,10 +59,10 @@ desktop.ini
 # =========================
 
 # Raw datasets
-data/raw/
+#data/raw/
 
 # Processed/generated datasets
-data/processed/
+#data/processed/
 
 # =========================
 # Vector Stores
