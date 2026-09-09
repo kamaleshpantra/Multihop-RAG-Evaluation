@@ -1,0 +1,588 @@
+{
+  "num_examples": 50,
+  "retrieval_k": 15,
+  "complete_count": 34,
+  "complete_rate": 0.68,
+  "average_coverage": 0.8493333333333333,
+  "matched_facts": 104,
+  "total_gold_facts": 122,
+  "fact_recall": 0.8524590163934426,
+  "failures": [
+    {
+      "id": "5a8c7595554299585d9e36b6",
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "gold_answer": "Chief of Protocol",
+      "matched_facts": [
+        {
+          "title": "kiss and tell (1945 film)",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "shirley temple",
+          "sentence_id": 0
+        },
+        {
+          "title": "shirley temple",
+          "sentence_id": 1
+        }
+      ],
+      "retrieved_titles": [
+        "Kiss and Tell (1945 film)",
+        "A Kiss for Corliss",
+        "Janet Waldo",
+        "Cheryl Tunt",
+        "Carole Post",
+        "Meet Corliss Archer (TV series)",
+        "The Prodigal Daughter",
+        "Emily Atack",
+        "Krystal Meadows",
+        "Meet Corliss Archer",
+        "Nora Lewin",
+        "Jessica Walter",
+        "The Kiss (1929 film)",
+        "List of Archer episodes",
+        "Shannyn Sossamon"
+      ]
+    },
+    {
+      "id": "5a85ea095542994775f606a8",
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "gold_answer": "Animorphs",
+      "matched_facts": [
+        {
+          "title": "the hork-bajir chronicles",
+          "sentence_id": 0
+        },
+        {
+          "title": "the hork-bajir chronicles",
+          "sentence_id": 1
+        },
+        {
+          "title": "animorphs",
+          "sentence_id": 0
+        },
+        {
+          "title": "animorphs",
+          "sentence_id": 1
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "the hork-bajir chronicles",
+          "sentence_id": 2
+        }
+      ],
+      "retrieved_titles": [
+        "Animorphs",
+        "A Wind in the Door",
+        "Talking to Dragons",
+        "Victoria Hanley",
+        "Isaac Asimov's Magical Worlds of Fantasy",
+        "Andre Norton Award",
+        "The Hork-Bajir Chronicles",
+        "Science Fantasy (magazine)",
+        "Imaginary Worlds: The Art of Fantasy",
+        "The Best Science Fiction Stories: 1952",
+        "Will Grayson, Will Grayson",
+        "K. A. Applegate",
+        "The Spiderwick Chronicles",
+        "Wizards (Asimov anthology)",
+        "The African Americans: Many Rivers to Cross"
+      ]
+    },
+    {
+      "id": "5a8e3ea95542995a26add48d",
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "gold_answer": "Greenwich Village, New York City",
+      "matched_facts": [
+        {
+          "title": "big stone gap (film)",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "adriana trigiani",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Big Stone Gap (film)",
+        "Nola (film)",
+        "The Big Split",
+        "I Love NY (2015 film)",
+        "Manhattan Romance",
+        "The Big Brain",
+        "Hamish and Andy's Gap Year",
+        "The Big House (1930 film)",
+        "Kingston Morning",
+        "Brooklyn (film)",
+        "I Cover Big Town",
+        "Mind the Gap Theatre",
+        "Jesse Stone: Thin Ice",
+        "Oliver Stone",
+        "Steve Cosson"
+      ]
+    },
+    {
+      "id": "5a8db19d5542994ba4e3dd00",
+      "question": "Are Local H and For Against both from the United States?",
+      "gold_answer": "yes",
+      "matched_facts": [
+        {
+          "title": "local h",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "for against",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Local H",
+        "Local H's Awesome Mix Tape 2",
+        "The Team EP",
+        "Mendocino County GMO Ban",
+        "Suffrajett",
+        "History of paleontology in the United States",
+        "Amherst, Massachusetts",
+        "Polka",
+        "Ophur",
+        "Reagan Democrat",
+        "Mendocino County GMO Ban",
+        "H Mart",
+        "United States Senate election in Oklahoma, 2014",
+        "Kansas Army National Guard",
+        "Stewart Nozette"
+      ]
+    },
+    {
+      "id": "5ab6d09255429954757d337d",
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "gold_answer": "from 1986 to 2013",
+      "matched_facts": [
+        {
+          "title": "alex ferguson",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "1995–96 manchester united f.c. season",
+          "sentence_id": 2
+        },
+        {
+          "title": "1995–96 manchester united f.c. season",
+          "sentence_id": 3
+        }
+      ],
+      "retrieved_titles": [
+        "Matt Busby",
+        "Ernest Mangnall",
+        "Alex Ferguson",
+        "Joshua Parlby",
+        "Peter Taylor (footballer, born 1953)",
+        "The Class of '92",
+        "Manchester United F.C. league record by opponent",
+        "Sir Matt Busby Sports Complex",
+        "David Beckham",
+        "Jack Eskridge",
+        "Manchester United F.C. league record by opponent",
+        "2013–14 Everton F.C. season",
+        "List of Manchester United F.C. seasons",
+        "List of Manchester United F.C. managers",
+        "List of Manchester United F.C. players"
+      ]
+    },
+    {
+      "id": "5ab3e45655429976abd1bcd4",
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "gold_answer": "the North Atlantic Conference",
+      "matched_facts": [
+        {
+          "title": "vermont catamounts men's soccer",
+          "sentence_id": 0
+        },
+        {
+          "title": "vermont catamounts men's soccer",
+          "sentence_id": 1
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "america east conference",
+          "sentence_id": 1
+        }
+      ],
+      "retrieved_titles": [
+        "Vermont Catamounts men's soccer",
+        "Vermont Catamounts men's basketball",
+        "Vermont Catamounts men's ice hockey",
+        "2016–17 Vermont Catamounts men's basketball team",
+        "2010–11 Vermont Catamounts men's basketball team",
+        "2015–16 Vermont Catamounts men's basketball team",
+        "2012–13 Vermont Catamounts men's basketball team",
+        "2013–14 Vermont Catamounts men's basketball team",
+        "2011–12 Vermont Catamounts men's basketball team",
+        "Vermont Catamounts men's ice hockey",
+        "Robert Morris Colonials men's basketball",
+        "Wake Forest Demon Deacons men's soccer",
+        "Cal Poly Mustangs men's soccer",
+        "Florida Atlantic Owls men's soccer",
+        "Green Bay Phoenix men's soccer"
+      ]
+    },
+    {
+      "id": "5ab29c24554299449642c932",
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "gold_answer": "yes",
+      "matched_facts": [
+        {
+          "title": "giuseppe verdi",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "ambroise thomas",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Giuseppe Verdi",
+        "Giovanna d'Arco",
+        "Otello",
+        "Gaetano Donizetti",
+        "Giuseppe Verdi (film)",
+        "Jérusalem",
+        "Teatro Giuseppe Verdi",
+        "Verdi, the King of Melody",
+        "Ferdinando Provesi",
+        "Giuseppe Verdi Monument",
+        "Aida discography",
+        "Orchestra Sinfonica di Milano Giuseppe Verdi",
+        "Antonietta Marini-Rainieri",
+        "Eugenio Cavallini",
+        "Mary Jane Phillips-Matz"
+      ]
+    },
+    {
+      "id": "5ae0d4c9554299603e418468",
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "gold_answer": "1969 until 1974",
+      "matched_facts": [
+        {
+          "title": "roger o. egeberg",
+          "sentence_id": 2
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "richard nixon",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Roger O. Egeberg",
+        "Roger O. Egeberg",
+        "Douglas J. Bennet",
+        "Steven K. Galson",
+        "Nelson Rockefeller",
+        "Steven K. Galson",
+        "Evelyn S. Lieberman",
+        "David Malpass",
+        "William Flynn Martin",
+        "Edward C. Hugler",
+        "Office of Population Affairs",
+        "Alicia Munnell",
+        "Geoff Morrell (spokesperson)",
+        "Assistant Secretary of State for Public Affairs",
+        "David M. Kennedy"
+      ]
+    },
+    {
+      "id": "5a722b8655429971e9dc9329",
+      "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "gold_answer": "Barton Lee Hazlewood",
+      "matched_facts": [
+        {
+          "title": "these boots are made for walkin'",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "lee hazlewood",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "These Boots Are Made for Walkin'",
+        "Boots (EP)",
+        "The Twenty-fifth Anniversary Anthology",
+        "Boots (album)",
+        "Nancy Sinatra",
+        "Puss N' Boots/These Boots Are Made for Walkin'",
+        "Kon Kan",
+        "Dead Man Walkin'",
+        "Dead in the Boot",
+        "In Her Shoes (novel)",
+        "I Am a Dalek",
+        "Dead Man's Shoes (2004 film)",
+        "Daryl Dixon",
+        "Cavalier boots",
+        "Ugg boots"
+      ]
+    },
+    {
+      "id": "5adf37a95542995ec70e8f97",
+      "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "gold_answer": "1838",
+      "matched_facts": [
+        {
+          "title": "2011–12 vcu rams men's basketball team",
+          "sentence_id": 2
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "virginia commonwealth university",
+          "sentence_id": 1
+        }
+      ],
+      "retrieved_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "2010–11 VCU Rams men's basketball team",
+        "2012–13 VCU Rams men's basketball team",
+        "2013–14 VCU Rams men's basketball team",
+        "2014–15 VCU Rams men's basketball team",
+        "2009–10 VCU Rams men's basketball team",
+        "2004–05 VCU Rams men's basketball team",
+        "2015–16 VCU Rams men's basketball team",
+        "1995–96 VCU Rams men's basketball team",
+        "2011–12 Iona Gaels men's basketball team",
+        "2011–12 Wagner Seahawks men's basketball team",
+        "2011–12 Vermont Catamounts men's basketball team",
+        "2011–12 Syracuse Orange men's basketball team",
+        "Old Dominion–VCU basketball rivalry",
+        "2010–11 Iona Gaels men's basketball team"
+      ]
+    },
+    {
+      "id": "5ac23ff0554299636651994d",
+      "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+      "gold_answer": "2000",
+      "matched_facts": [
+        {
+          "title": "shut up, make love",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "poison (american band)",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Shut Up, Make Love",
+        "Be the One (Poison song)",
+        "A Letter from Death Row (album)",
+        "Songs of Life (Bret Michaels album)",
+        "The Longer We Make Love",
+        "System of a Down discography",
+        "Catch Me (I'm Falling)",
+        "Mind If We Make Love to You",
+        "Toxicity (song)",
+        "Make Love",
+        "Was ist das",
+        "Ballads, Blues &amp; Stories",
+        "Toxic (song)",
+        "Halestorm",
+        "Stand (Poison song)"
+      ]
+    },
+    {
+      "id": "5a7571135542992d0ec05f98",
+      "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+      "gold_answer": "New York City",
+      "matched_facts": [
+        {
+          "title": "ralph hefferline",
+          "sentence_id": 0
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "columbia university",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Ralph Hefferline",
+        "Robert L. Selman",
+        "Raymond Chang (chemist)",
+        "Ralph Faudree",
+        "Jose Acacio de Barros",
+        "David C. Funder",
+        "Aaron Brower",
+        "John Markowitz",
+        "Donald Kuspit",
+        "Rodney Benson",
+        "Thomas Szasz",
+        "Willard Gaylin",
+        "Frank L. Schmidt",
+        "New York State Psychiatric Institute",
+        "Tukufu Zuberi"
+      ]
+    },
+    {
+      "id": "5a74106b55429979e288289e",
+      "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+      "gold_answer": "Mumbai",
+      "matched_facts": [
+        {
+          "title": "sachin warrier",
+          "sentence_id": 3
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "tata consultancy services",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Sachin Warrier",
+        "Sachin Bansal",
+        "F. C. Kohli",
+        "William Connolley",
+        "Kristof Konrad",
+        "Anthony Finkelstein",
+        "Alec Muffett",
+        "Charles Cecil",
+        "Wes McKinney",
+        "Divya S. Menon",
+        "SAP SE",
+        "Arm Holdings",
+        "AVG Technologies",
+        "Keith Bostic",
+        "Utpal K. Banerjee"
+      ]
+    },
+    {
+      "id": "5a79311755429970f5fffe67",
+      "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+      "gold_answer": "1962",
+      "matched_facts": [
+        {
+          "title": "i&quot;s",
+          "sentence_id": 1
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "masakazu katsura",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "I&quot;s",
+        "Haven't You Heard? I'm Sakamoto",
+        "Silver Spoon (manga)",
+        "The Kindaichi Case Files",
+        "Koi Kaze",
+        "Kaze Hikaru",
+        "Shamo (manga)",
+        "Seito Shokun!",
+        "Neuro: Supernatural Detective",
+        "Touch (manga)",
+        "Clear Skies!",
+        "Cross Manage",
+        "The Prince of Tennis",
+        "I&quot;s",
+        "Manga Bible (series)"
+      ]
+    },
+    {
+      "id": "5a760ab65542994ccc918697",
+      "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+      "gold_answer": "Nelson Rockefeller",
+      "matched_facts": [
+        {
+          "title": "alfred balk",
+          "sentence_id": 0
+        },
+        {
+          "title": "alfred balk",
+          "sentence_id": 2
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "nelson rockefeller",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Alfred Balk",
+        "Alfred Balk",
+        "Executive Order 10925",
+        "Gerald Ford",
+        "Hubert Thomas Delany",
+        "Cynthia Hogan",
+        "Jefferson Memorial",
+        "Gerald Ford",
+        "Chuck Todd",
+        "Timeline of the presidency of Gerald Ford",
+        "Leonard Downie Jr.",
+        "Robert R. Hood",
+        "United States Deputy Secretary of Labor",
+        "Robert R. Hood",
+        "Young Democrats of North Carolina"
+      ]
+    },
+    {
+      "id": "5ab859a955429934fafe6d7b",
+      "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+      "gold_answer": "Phil Spector",
+      "matched_facts": [
+        {
+          "title": "back to mono (1958–1969)",
+          "sentence_id": 0
+        },
+        {
+          "title": "back to mono (1958–1969)",
+          "sentence_id": 1
+        }
+      ],
+      "missed_facts": [
+        {
+          "title": "to know him is to love him",
+          "sentence_id": 0
+        }
+      ],
+      "retrieved_titles": [
+        "Back to Mono (1958–1969)",
+        "Nashville Rebel (box set)",
+        "Back to Mono (1958–1969)",
+        "Chasin' Crazy",
+        "Easter (Marillion song)",
+        "The Road to Hong Kong (soundtrack)",
+        "Mono Masters",
+        "Mono Masters",
+        "I Was a Lover, a Leader of Men",
+        "Sing a Simple Song",
+        "Gimme Shelter",
+        "Ultimate Hits: Rock and Roll Never Forgets",
+        "Stray Cat Blues",
+        "Mono Masters",
+        "The Original Singles: 1967–1969, Volume 2"
+      ]
+    }
+  ]
+}

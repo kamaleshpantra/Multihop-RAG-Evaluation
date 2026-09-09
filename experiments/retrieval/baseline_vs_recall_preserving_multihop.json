@@ -1,0 +1,4273 @@
+{
+  "num_examples": 50,
+  "baseline": {
+    "complete_count": 33,
+    "complete_rate": 0.66,
+    "average_coverage": 0.8313333333333333
+  },
+  "recall_preserving_multihop": {
+    "complete_count": 35,
+    "complete_rate": 0.7,
+    "average_coverage": 0.8593333333333333
+  },
+  "transitions": {
+    "both_correct": 32,
+    "fixed": 3,
+    "regressed": 1,
+    "both_wrong": 14
+  },
+  "fixed": [
+    {
+      "id": "5a87ab905542996e4f3088c1",
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "answer": "3,677 seated",
+      "gold_facts": [
+        {
+          "title": "lewiston maineiacs",
+          "sentence_id": 1
+        },
+        {
+          "title": "androscoggin bank colisée",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "lewiston maineiacs",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "androscoggin bank colisée",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Dwyer Arena",
+          "Lewiston Maineiacs",
+          "2006–07 QMJHL season",
+          "Lubbers Stadium",
+          "Tennessee Tech Golden Eagles football",
+          "FIU Panthers football",
+          "Billings Bulls",
+          "Wichita Wild",
+          "UNLV Rebels football",
+          "Toronto Argonauts",
+          "Louisville Thunder",
+          "Case Gym",
+          "2005 Texas Tech Red Raiders football team",
+          "2004 Texas Tech Red Raiders football team",
+          "2002 Texas Tech Red Raiders football team"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "lewiston maineiacs",
+            "sentence_id": 1
+          },
+          {
+            "title": "androscoggin bank colisée",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Lewiston Maineiacs",
+          "Dwyer Arena",
+          "Louisville Thunder",
+          "FIU Panthers football",
+          "UNLV Rebels football",
+          "Androscoggin Bank Colisée",
+          "2006–07 QMJHL season",
+          "Tennessee Tech Golden Eagles football",
+          "Billings Bulls",
+          "Children's Mercy Park",
+          "Wichita Wild",
+          "2011–12 QMJHL season",
+          "Moda Center",
+          "Toronto Argonauts",
+          "Broadbent Arena"
+        ]
+      }
+    },
+    {
+      "id": "5a75e05c55429976ec32bc5f",
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "answer": "9,984",
+      "gold_facts": [
+        {
+          "title": "brown state fishing lake",
+          "sentence_id": 0
+        },
+        {
+          "title": "brown county, kansas",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "brown state fishing lake",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "brown county, kansas",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "Brown State Fishing Lake",
+          "Neosho State Fishing Lake",
+          "Osage State Fishing Lake",
+          "Shawnee State Fishing Lake",
+          "Hong Kong Island",
+          "Higgins Lake",
+          "List of lakes in Wisconsin",
+          "Fishing Lake",
+          "Lobster Lake (Maine)",
+          "Enid Lake",
+          "Commanda Lake",
+          "Winnipeg Beach",
+          "Juprelle",
+          "Arataca",
+          "Higgins Lake, Michigan"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "brown state fishing lake",
+            "sentence_id": 0
+          },
+          {
+            "title": "brown county, kansas",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Brown State Fishing Lake",
+          "Neosho State Fishing Lake",
+          "Osage State Fishing Lake",
+          "Shawnee State Fishing Lake",
+          "Lobster Lake (Maine)",
+          "Brown County, Kansas",
+          "Hong Kong Island",
+          "Higgins Lake",
+          "List of lakes in Wisconsin",
+          "Fishing Lake",
+          "Toms River, New Jersey",
+          "Enid Lake",
+          "Commanda Lake",
+          "Bangor, Maine",
+          "Houghton Lake (Michigan)"
+        ]
+      }
+    },
+    {
+      "id": "5add61d65542995b365fab21",
+      "question": "What type of forum did a former Soviet statesman initiate?",
+      "answer": "Organizations could come together to address global issues",
+      "gold_facts": [
+        {
+          "title": "world summit of nobel peace laureates",
+          "sentence_id": 0
+        },
+        {
+          "title": "mikhail gorbachev",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "mikhail gorbachev",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "world summit of nobel peace laureates",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Mikhail Gorbachev",
+          "Ephraim Sklyansky",
+          "Anastas Mikoyan",
+          "Mikhail Suslov",
+          "Andrei Kirilenko (politician)",
+          "Nikolai Podgorny",
+          "Federation of Conservative Students",
+          "Sergo Mikoyan",
+          "Nikolai Ryzhkov",
+          "Anastas Mikoyan",
+          "Nikita Khrushchev",
+          "Nikolai Uglanov",
+          "Nikolai Krylenko",
+          "Russian Soviet Government Bureau",
+          "MS Excelsior Neptune"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "world summit of nobel peace laureates",
+            "sentence_id": 0
+          },
+          {
+            "title": "mikhail gorbachev",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Mikhail Gorbachev",
+          "Nikolai Podgorny",
+          "Mikhail Suslov",
+          "Anastas Mikoyan",
+          "Nikolai Ryzhkov",
+          "Ephraim Sklyansky",
+          "World Summit of Nobel Peace Laureates",
+          "Andrei Kirilenko (politician)",
+          "Federation of Conservative Students",
+          "Sergo Mikoyan",
+          "Anatoly Lunacharsky",
+          "Anastas Mikoyan",
+          "Nikita Khrushchev",
+          "Nikolai Uglanov",
+          "Joseph Stalin"
+        ]
+      }
+    }
+  ],
+  "regressed": [
+    {
+      "id": "5ac23ff0554299636651994d",
+      "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+      "answer": "2000",
+      "gold_facts": [
+        {
+          "title": "shut up, make love",
+          "sentence_id": 0
+        },
+        {
+          "title": "poison (american band)",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "shut up, make love",
+            "sentence_id": 0
+          },
+          {
+            "title": "poison (american band)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Shut Up, Make Love",
+          "Be the One (Poison song)",
+          "Songs of Life (Bret Michaels album)",
+          "Mind If We Make Love to You",
+          "Keep It Up",
+          "Was ist das",
+          "Halestorm",
+          "Poison Ivy (song)",
+          "All I Wanna Do Is Make Love to You",
+          "Let's Make Sure We Kiss Goodbye",
+          "Princess of China",
+          "Poison (American band)",
+          "Prairie School Freakout",
+          "Can't Slow Down (song)",
+          "Love and Poison (book)"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "shut up, make love",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "poison (american band)",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Shut Up, Make Love",
+          "Be the One (Poison song)",
+          "Poison Ivy (song)",
+          "Mind If We Make Love to You",
+          "Songs of Life (Bret Michaels album)",
+          "A Letter from Death Row (album)",
+          "The Longer We Make Love",
+          "System of a Down discography",
+          "Catch Me (I'm Falling)",
+          "Toxicity (song)",
+          "Make Love",
+          "Was ist das",
+          "Ballads, Blues &amp; Stories",
+          "Toxic (song)",
+          "Halestorm"
+        ]
+      }
+    }
+  ],
+  "both_correct": [
+    {
+      "id": "5a8b57f25542995d1e6f1371",
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "answer": "yes",
+      "gold_facts": [
+        {
+          "title": "scott derrickson",
+          "sentence_id": 0
+        },
+        {
+          "title": "ed wood",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "scott derrickson",
+            "sentence_id": 0
+          },
+          {
+            "title": "ed wood",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Scott Derrickson",
+          "Ed Wood (film)",
+          "Ed Wood",
+          "Doctor Strange (2016 film)",
+          "Chris Wood (footballer, born 1991)",
+          "Sinister (film)",
+          "The Exorcism of Emily Rose",
+          "Tyler Bates",
+          "Woodson, Arkansas",
+          "Darrell Scott",
+          "Bob Atkins (American football)",
+          "Billy Scott (footballer, born 1884)",
+          "Vernon Crawford &quot;Jack&quot; Cooke",
+          "Randolph Mantooth",
+          "Jason Keyser"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "scott derrickson",
+            "sentence_id": 0
+          },
+          {
+            "title": "ed wood",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Ed Wood (film)",
+          "Doctor Strange (2016 film)",
+          "Ed Wood",
+          "Woodson, Arkansas",
+          "Vernon Crawford &quot;Jack&quot; Cooke",
+          "Scott Derrickson",
+          "Patricia Arquette",
+          "Jim Wood (American football)",
+          "Conrad Brooks",
+          "Chris Wood (footballer, born 1991)",
+          "Sinister (film)",
+          "The Exorcism of Emily Rose",
+          "Final Curtain (film)",
+          "That Darn Cat (1997 film)",
+          "Tyler Bates"
+        ]
+      }
+    },
+    {
+      "id": "5adbf0a255429947ff17385a",
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "answer": "no",
+      "gold_facts": [
+        {
+          "title": "laleli mosque",
+          "sentence_id": 0
+        },
+        {
+          "title": "esma sultan mansion",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "laleli mosque",
+            "sentence_id": 0
+          },
+          {
+            "title": "esma sultan mansion",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Esma Sultan Mansion",
+          "Laleli Mosque",
+          "Mihrimah Sultan Mosque (Edirnekapı)",
+          "Pertevniyal Valide Sultan Mosque",
+          "Esma Sultan (daughter of Abdul Hamid I)",
+          "Esma Sultan (daughter of Abdülaziz)",
+          "King Mosque, Berat",
+          "Sultan Ahmed Mosque",
+          "Gazi Atik Ali Pasha Mosque",
+          "Firuz Agha Mosque",
+          "Abidin Mosque",
+          "Zafaraniyeh",
+          "Yıldız Hamidiye Mosque",
+          "New Mosque (Istanbul)",
+          "Firoz Shah Palace Complex"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "laleli mosque",
+            "sentence_id": 0
+          },
+          {
+            "title": "esma sultan mansion",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Esma Sultan Mansion",
+          "Laleli Mosque",
+          "Mihrimah Sultan Mosque (Edirnekapı)",
+          "Abidin Mosque",
+          "King Mosque, Berat",
+          "Pertevniyal Valide Sultan Mosque",
+          "Esma Sultan",
+          "Esma Sultan (daughter of Abdul Hamid I)",
+          "Esma Sultan (daughter of Ahmed III)",
+          "Esma Sultan (daughter of Abdülaziz)",
+          "Sultan Ahmed Mosque",
+          "Gazi Atik Ali Pasha Mosque",
+          "Firuz Agha Mosque",
+          "Zafaraniyeh",
+          "Yıldız Hamidiye Mosque"
+        ]
+      }
+    },
+    {
+      "id": "5abd94525542992ac4f382d2",
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "answer": "YG Entertainment",
+      "gold_facts": [
+        {
+          "title": "2014 s/s",
+          "sentence_id": 0
+        },
+        {
+          "title": "winner (band)",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "2014 s/s",
+            "sentence_id": 0
+          },
+          {
+            "title": "winner (band)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "2014 S/S",
+          "Madtown",
+          "Winner (band)",
+          "EXO-CBX",
+          "BTS discography",
+          "Girls' Generation",
+          "SF9 (band)",
+          "Seventeen discography",
+          "List of awards and nominations received by Shinee",
+          "Ladies' Code",
+          "Girls (EXO-CBX EP)",
+          "Bastarz",
+          "Super Junior",
+          "Twice discography",
+          "B.A.P (South Korean band)"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "2014 s/s",
+            "sentence_id": 0
+          },
+          {
+            "title": "winner (band)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "2014 S/S",
+          "Girls' Generation",
+          "Seventeen discography",
+          "List of Super Junior concert tours",
+          "SF9 (band)",
+          "Madtown",
+          "Winner (band)",
+          "EXO-CBX",
+          "BTS discography",
+          "List of awards and nominations received by Shinee",
+          "Ladies' Code",
+          "Girls (EXO-CBX EP)",
+          "Bastarz",
+          "Seventeen (band)",
+          "Super Junior"
+        ]
+      }
+    },
+    {
+      "id": "5a85b2d95542997b5ce40028",
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "answer": "Eenasul Fateh",
+      "gold_facts": [
+        {
+          "title": "eenasul fateh",
+          "sentence_id": 0
+        },
+        {
+          "title": "management consulting",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "eenasul fateh",
+            "sentence_id": 0
+          },
+          {
+            "title": "management consulting",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Eenasul Fateh",
+          "Management consulting",
+          "ELDee",
+          "Darren Treasure",
+          "Method Man",
+          "Dick Morris",
+          "Claudio Fernández-Aráoz",
+          "Iron &amp; Wine",
+          "Jason Barnard",
+          "Sandhya (actress)",
+          "Mike B. Anderson",
+          "Aladdin Knowledge Systems",
+          "Antoine Vézina",
+          "Karachi Kings",
+          "William J. Mulrow"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "eenasul fateh",
+            "sentence_id": 0
+          },
+          {
+            "title": "management consulting",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Eenasul Fateh",
+          "Aladdin Knowledge Systems",
+          "Management consulting",
+          "Claudio Fernández-Aráoz",
+          "ELDee",
+          "Darren Treasure",
+          "Method Man",
+          "Robert Sean Leonard",
+          "Dick Morris",
+          "Abdul Razzak Yaqoob",
+          "Iron &amp; Wine",
+          "Gary L. Bennett",
+          "Jason Barnard",
+          "Sandhya (actress)",
+          "Man and the Moon"
+        ]
+      }
+    },
+    {
+      "id": "5a7bbb64554299042af8f7cc",
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "answer": "Terry Richardson",
+      "gold_facts": [
+        {
+          "title": "annie morton",
+          "sentence_id": 0
+        },
+        {
+          "title": "annie morton",
+          "sentence_id": 2
+        },
+        {
+          "title": "terry richardson",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "annie morton",
+            "sentence_id": 0
+          },
+          {
+            "title": "annie morton",
+            "sentence_id": 2
+          },
+          {
+            "title": "terry richardson",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Annie Morton",
+          "Terry Richardson",
+          "Kenton Richardson",
+          "Alicia Morton",
+          "Lady Gaga x Terry Richardson",
+          "Amanda Lepore",
+          "Gumbo (PJ Morton album)",
+          "Angaleena Presley",
+          "Steve Reich",
+          "Ruby Aldridge",
+          "Magic Man",
+          "Miranda Lambert",
+          "Sammy Howarth",
+          "Brandy Clark",
+          "Martin Platt"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "annie morton",
+            "sentence_id": 0
+          },
+          {
+            "title": "annie morton",
+            "sentence_id": 2
+          },
+          {
+            "title": "terry richardson",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Annie Morton",
+          "Alicia Morton",
+          "Kenton Richardson",
+          "Brandy Clark",
+          "Angaleena Presley",
+          "Terry Richardson",
+          "Lady Gaga x Terry Richardson",
+          "Amanda Lepore",
+          "Kevin Richardson (footballer)",
+          "Garth Richardson",
+          "Lewis Richardson (Hollyoaks)",
+          "St. Vincent (musician)",
+          "Gumbo (PJ Morton album)",
+          "Annie Get Your Gun (musical)",
+          "The Supergrass"
+        ]
+      }
+    },
+    {
+      "id": "5a7166395542994082a3e814",
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "answer": "Kansas Song",
+      "gold_facts": [
+        {
+          "title": "kansas song",
+          "sentence_id": 0
+        },
+        {
+          "title": "university of kansas",
+          "sentence_id": 1
+        },
+        {
+          "title": "university of kansas",
+          "sentence_id": 2
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "kansas song",
+            "sentence_id": 0
+          },
+          {
+            "title": "university of kansas",
+            "sentence_id": 1
+          },
+          {
+            "title": "university of kansas",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "University of Kansas",
+          "Kansas Song",
+          "University of Missouri–Kansas City",
+          "Saint Paul School of Theology",
+          "United Methodist Church of the Resurrection",
+          "University of Missouri–Kansas City",
+          "Spectrum Sports (Kansas City)",
+          "Downtown Kansas City",
+          "Kansas Jayhawks men's basketball",
+          "Kansas City Southern (company)",
+          "CommunityAmerica Ballpark",
+          "Kansas City jazz",
+          "CommunityAmerica Ballpark",
+          "Kansas City Scout",
+          "Wichita, Kansas"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "kansas song",
+            "sentence_id": 0
+          },
+          {
+            "title": "university of kansas",
+            "sentence_id": 1
+          },
+          {
+            "title": "university of kansas",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "University of Kansas",
+          "University of Missouri–Kansas City",
+          "Downtown Kansas City",
+          "Saint Paul School of Theology",
+          "Kansas Song",
+          "Kansas City metropolitan area",
+          "United Methodist Church of the Resurrection",
+          "Border War (Kansas–Missouri rivalry)",
+          "University of Missouri–Kansas City",
+          "Spectrum Sports (Kansas City)",
+          "Georgetown University Alma Mater",
+          "Kansas City, Missouri",
+          "Kansas Jayhawks men's basketball",
+          "University of Missouri–Kansas City",
+          "Kansas City Southern (company)"
+        ]
+      }
+    },
+    {
+      "id": "5a877e5d5542993e715abf7d",
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+      "answer": "David Weissman",
+      "gold_facts": [
+        {
+          "title": "david weissman",
+          "sentence_id": 0
+        },
+        {
+          "title": "david weissman",
+          "sentence_id": 1
+        },
+        {
+          "title": "the family man",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "david weissman",
+            "sentence_id": 0
+          },
+          {
+            "title": "david weissman",
+            "sentence_id": 1
+          },
+          {
+            "title": "the family man",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "The Family Man",
+          "David Weissman",
+          "Deadfall (1993 film)",
+          "Gone in 60 Seconds (2000 film)",
+          "Benedict Fitzgerald",
+          "Godspell (film)",
+          "Season of the Witch (2011 film)",
+          "City of Angels (film)",
+          "What's Eating Gilbert Grape",
+          "Drive Angry",
+          "Toy Story",
+          "It Could Happen to You (1994 film)",
+          "Matt Charman",
+          "Gone in 60 Seconds (1974 film)",
+          "Javier Gullón"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "david weissman",
+            "sentence_id": 0
+          },
+          {
+            "title": "david weissman",
+            "sentence_id": 1
+          },
+          {
+            "title": "the family man",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "David Weissman",
+          "The Family Man",
+          "What Ever Happened to Baby Jane? (1962 film)",
+          "Deadfall (1993 film)",
+          "Godspell (film)",
+          "Gone in 60 Seconds (2000 film)",
+          "Time to Kill (1989 film)",
+          "David Weisberg",
+          "Benedict Fitzgerald",
+          "Nicolas Cage",
+          "Season of the Witch (2011 film)",
+          "City of Angels (film)",
+          "What's Eating Gilbert Grape",
+          "Drive Angry",
+          "Toy Story"
+        ]
+      }
+    },
+    {
+      "id": "5ab3b0bf5542992ade7c6e39",
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "answer": "1999",
+      "gold_facts": [
+        {
+          "title": "oh my god (guns n' roses song)",
+          "sentence_id": 0
+        },
+        {
+          "title": "oh my god (guns n' roses song)",
+          "sentence_id": 1
+        },
+        {
+          "title": "end of days (film)",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "oh my god (guns n' roses song)",
+            "sentence_id": 0
+          },
+          {
+            "title": "oh my god (guns n' roses song)",
+            "sentence_id": 1
+          },
+          {
+            "title": "end of days (film)",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "End of Days (film)",
+          "Slash (musician)",
+          "Last Action Hero",
+          "Oh My God (Guns N' Roses song)",
+          "List of songs recorded by Guns N' Roses",
+          "Guns N' Roses discography",
+          "Mike Katz",
+          "Guns N' Roses",
+          "Arnold Schwarzenegger filmography",
+          "Hollywood Rose",
+          "Maggie (film)",
+          "Chris Weber",
+          "One in a Million (Guns N' Roses song)",
+          "November Rain",
+          "Steven Adler"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "oh my god (guns n' roses song)",
+            "sentence_id": 0
+          },
+          {
+            "title": "oh my god (guns n' roses song)",
+            "sentence_id": 1
+          },
+          {
+            "title": "end of days (film)",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Guns N' Roses discography",
+          "List of songs recorded by Guns N' Roses",
+          "Oh My God (Guns N' Roses song)",
+          "One in a Million (Guns N' Roses song)",
+          "Slash (musician)",
+          "End of Days (film)",
+          "Slash (musician)",
+          "Mike Katz",
+          "Guns N' Roses",
+          "Arnold Schwarzenegger filmography",
+          "Hollywood Rose",
+          "Chris Weber",
+          "Chinese Democracy",
+          "November Rain",
+          "Steven Adler"
+        ]
+      }
+    },
+    {
+      "id": "5ab56e32554299637185c594",
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "answer": "no",
+      "gold_facts": [
+        {
+          "title": "random house tower",
+          "sentence_id": 0
+        },
+        {
+          "title": "888 7th avenue",
+          "sentence_id": 2
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "random house tower",
+            "sentence_id": 0
+          },
+          {
+            "title": "888 7th avenue",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Random House Tower",
+          "888 7th Avenue",
+          "750 7th Avenue",
+          "Pershing Square Capital Management",
+          "834 Fifth Avenue",
+          "Bertelsmann Building",
+          "Trump Tower",
+          "712 Fifth Avenue",
+          "Tower 49",
+          "Villard (imprint)",
+          "Mall of Scandinavia",
+          "Carl B. Stokes United States Courthouse",
+          "Metropolitan Life Insurance Company Tower",
+          "Real estate technology",
+          "South Phoenix"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "random house tower",
+            "sentence_id": 0
+          },
+          {
+            "title": "888 7th avenue",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Random House Tower",
+          "888 7th Avenue",
+          "Tower 49",
+          "Pershing Square Capital Management",
+          "8 Spruce Street",
+          "750 7th Avenue",
+          "834 Fifth Avenue",
+          "Bertelsmann Building",
+          "Trump Tower",
+          "712 Fifth Avenue",
+          "Villard (imprint)",
+          "Greenwich Avenue",
+          "Mall of Scandinavia",
+          "One Worldwide Plaza",
+          "The Spiral (New York City)"
+        ]
+      }
+    },
+    {
+      "id": "5ab29c24554299449642c932",
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "answer": "yes",
+      "gold_facts": [
+        {
+          "title": "giuseppe verdi",
+          "sentence_id": 0
+        },
+        {
+          "title": "ambroise thomas",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "giuseppe verdi",
+            "sentence_id": 0
+          },
+          {
+            "title": "ambroise thomas",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Giuseppe Verdi",
+          "Ambroise Thomas",
+          "Giovanna d'Arco",
+          "Otello",
+          "Gaetano Donizetti",
+          "Giuseppe Verdi (film)",
+          "Jérusalem",
+          "Teatro Giuseppe Verdi",
+          "Verdi, the King of Melody",
+          "Aida discography",
+          "Eugenio Cavallini",
+          "Mary Jane Phillips-Matz",
+          "Armand Castelmary",
+          "Here (1954 song)",
+          "Eugenio Cavallini"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "giuseppe verdi",
+            "sentence_id": 0
+          },
+          {
+            "title": "ambroise thomas",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Giuseppe Verdi",
+          "Verdi, the King of Melody",
+          "Mary Jane Phillips-Matz",
+          "Gaetano Donizetti",
+          "Teatro Giuseppe Verdi",
+          "Ambroise Thomas",
+          "Giovanna d'Arco",
+          "Otello",
+          "Giuseppe Verdi (film)",
+          "Jérusalem",
+          "Ferdinando Provesi",
+          "Giuseppe Verdi Monument",
+          "Aida discography",
+          "Orchestra Sinfonica di Milano Giuseppe Verdi",
+          "Antonietta Marini-Rainieri"
+        ]
+      }
+    },
+    {
+      "id": "5a8133725542995ce29dcbdb",
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "answer": "Robert Erskine Childers DSC",
+      "gold_facts": [
+        {
+          "title": "henry roth",
+          "sentence_id": 0
+        },
+        {
+          "title": "robert erskine childers",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "henry roth",
+            "sentence_id": 0
+          },
+          {
+            "title": "robert erskine childers",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Robert Erskine Childers",
+          "Robert Caesar Childers",
+          "Henry Roth",
+          "Erskine Barton Childers",
+          "Molly Childers",
+          "Robert Barton",
+          "Gretchen Osgood Warren",
+          "Robert Erskine Childers",
+          "Asgard (yacht)",
+          "Erskine Barton Childers",
+          "Chester Erskine",
+          "John Erskine (theologian)",
+          "John Erskine, Earl of Mar (1558–1634)",
+          "Thomas Erskine, Lord Erskine",
+          "Philip Lindsay"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "henry roth",
+            "sentence_id": 0
+          },
+          {
+            "title": "robert erskine childers",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Erskine Barton Childers",
+          "Robert Erskine Childers",
+          "Robert Caesar Childers",
+          "Henry Roth",
+          "Robert Erskine Childers",
+          "Molly Childers",
+          "Robert Barton",
+          "Gretchen Osgood Warren",
+          "The Riddle of the Sands (film)",
+          "Asgard (yacht)",
+          "Erskine Barton Childers",
+          "Chester Erskine",
+          "John Erskine (theologian)",
+          "Irish Bulletin",
+          "John Erskine, Earl of Mar (1558–1634)"
+        ]
+      }
+    },
+    {
+      "id": "5ae7a8175542993210983ed8",
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "answer": "Pedro Rodríguez",
+      "gold_facts": [
+        {
+          "title": "formula one drivers from mexico",
+          "sentence_id": 1
+        },
+        {
+          "title": "formula one drivers from mexico",
+          "sentence_id": 2
+        },
+        {
+          "title": "sergio pérez",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "formula one drivers from mexico",
+            "sentence_id": 1
+          },
+          {
+            "title": "formula one drivers from mexico",
+            "sentence_id": 2
+          },
+          {
+            "title": "sergio pérez",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Formula One drivers from Mexico",
+          "Sergio Pérez",
+          "2014 Bahrain Grand Prix",
+          "Esteban Ocon",
+          "Force India VJM04",
+          "Eduardo Troconis",
+          "Force India VJM05",
+          "Rubens Barrichello",
+          "Formula One drivers from Brazil",
+          "1978 Brazilian Grand Prix",
+          "2009 Singapore Grand Prix",
+          "Carlos Sainz",
+          "Robert Kubica",
+          "2005 Monaco Grand Prix",
+          "Marlon Stöckinger"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "formula one drivers from mexico",
+            "sentence_id": 1
+          },
+          {
+            "title": "formula one drivers from mexico",
+            "sentence_id": 2
+          },
+          {
+            "title": "sergio pérez",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Formula One drivers from Mexico",
+          "Eduardo Troconis",
+          "Esteban Ocon",
+          "2015 Bahrain GP2 Series round",
+          "Force India VJM04",
+          "Sergio Pérez",
+          "2014 Bahrain Grand Prix",
+          "Force India VJM08",
+          "Force India VJM09",
+          "Force India VJM07",
+          "Force India VJM10",
+          "Force India VJM05",
+          "Rubens Barrichello",
+          "Sauber C32",
+          "James Rossiter"
+        ]
+      }
+    },
+    {
+      "id": "5ae6050f55429929b0807a5e",
+      "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "answer": "Sonic",
+      "gold_facts": [
+        {
+          "title": "a rather blustery day",
+          "sentence_id": 1
+        },
+        {
+          "title": "jim cummings",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "a rather blustery day",
+            "sentence_id": 1
+          },
+          {
+            "title": "jim cummings",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "A Rather Blustery Day",
+          "Jim Cummings",
+          "Jaleel White",
+          "Kate Higgins",
+          "John Kassir",
+          "Kate Higgins",
+          "Ms Panda and Mr Hedgehog",
+          "Keiko Utoku",
+          "Hip Hip Pooh-Ray!",
+          "Heffalumps and Woozles",
+          "The Rain Rain Rain Came Down Down Down",
+          "Bruce Willis",
+          "Christian Whitehead",
+          "Tanvi Hegde",
+          "Cory Doran"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "a rather blustery day",
+            "sentence_id": 1
+          },
+          {
+            "title": "jim cummings",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Jaleel White",
+          "Kate Higgins",
+          "Kate Higgins",
+          "A Rather Blustery Day",
+          "Jim Cummings",
+          "John Kassir",
+          "Cindy Robinson",
+          "Ms Panda and Mr Hedgehog",
+          "Keiko Utoku",
+          "Hip Hip Pooh-Ray!",
+          "Heffalumps and Woozles",
+          "Winnie the Pooh and the Blustery Day",
+          "The Rain Rain Rain Came Down Down Down",
+          "Bruce Willis",
+          "Little Black Rain Cloud"
+        ]
+      }
+    },
+    {
+      "id": "5adddccd5542997dc7907069",
+      "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+      "answer": "keyboard function keys",
+      "gold_facts": [
+        {
+          "title": "apple remote",
+          "sentence_id": 0
+        },
+        {
+          "title": "apple remote",
+          "sentence_id": 1
+        },
+        {
+          "title": "front row (software)",
+          "sentence_id": 0
+        },
+        {
+          "title": "front row (software)",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "apple remote",
+            "sentence_id": 0
+          },
+          {
+            "title": "apple remote",
+            "sentence_id": 1
+          },
+          {
+            "title": "front row (software)",
+            "sentence_id": 0
+          },
+          {
+            "title": "front row (software)",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Apple Remote",
+          "Siri Remote",
+          "Apple Remote",
+          "Apple Remote Desktop",
+          "Universal remote",
+          "Universal remote",
+          "NetSupport Manager",
+          "Remote control",
+          "MacScan",
+          "Front Row (software)",
+          "NetSupport Manager",
+          "Remote control",
+          "Apple Watch",
+          "Trainmaster Command Control",
+          "Apple Inc."
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "apple remote",
+            "sentence_id": 0
+          },
+          {
+            "title": "apple remote",
+            "sentence_id": 1
+          },
+          {
+            "title": "front row (software)",
+            "sentence_id": 0
+          },
+          {
+            "title": "front row (software)",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Apple Remote",
+          "Apple Remote",
+          "Siri Remote",
+          "Apple Remote Desktop",
+          "Remote control",
+          "Universal remote",
+          "Universal remote",
+          "NetSupport Manager",
+          "MacScan",
+          "Front Row (software)",
+          "NetSupport Manager",
+          "Remote control",
+          "Apple Watch",
+          "Trainmaster Command Control",
+          "Magic Mouse"
+        ]
+      }
+    },
+    {
+      "id": "5ae2070a5542994d89d5b313",
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "answer": "Badly Drawn Boy",
+      "gold_facts": [
+        {
+          "title": "badly drawn boy",
+          "sentence_id": 0
+        },
+        {
+          "title": "wolf alice",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "badly drawn boy",
+            "sentence_id": 0
+          },
+          {
+            "title": "wolf alice",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "The Hour of Bewilderbeast",
+          "Wolf Alice",
+          "Badly Drawn Boy",
+          "Badly Drawn Boy discography",
+          "Silent Sigh",
+          "About a Boy (soundtrack)",
+          "Something to Talk About (Badly Drawn Boy song)",
+          "Under an Hour",
+          "Tom Rothrock",
+          "Music for Electric Metronomes",
+          "Ahardin",
+          "Freelusion",
+          "Blond Eckbert",
+          "La Soirée",
+          "Blow Me Away"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "badly drawn boy",
+            "sentence_id": 0
+          },
+          {
+            "title": "wolf alice",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Wolf Alice",
+          "Music for Electric Metronomes",
+          "Silent Sigh",
+          "Discwoman",
+          "Under an Hour",
+          "The Hour of Bewilderbeast",
+          "Badly Drawn Boy",
+          "Badly Drawn Boy discography",
+          "About a Boy (soundtrack)",
+          "Something to Talk About (Badly Drawn Boy song)",
+          "Badly Drawn Boy discography",
+          "About a Boy (film)",
+          "Tom Rothrock",
+          "Leonard Logsdail",
+          "A Rush of Blood to the Head"
+        ]
+      }
+    },
+    {
+      "id": "5ae22b8d554299234fd0440f",
+      "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+      "answer": "World's Best Goalkeeper",
+      "gold_facts": [
+        {
+          "title": "kasper schmeichel",
+          "sentence_id": 0
+        },
+        {
+          "title": "kasper schmeichel",
+          "sentence_id": 1
+        },
+        {
+          "title": "peter schmeichel",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "kasper schmeichel",
+            "sentence_id": 0
+          },
+          {
+            "title": "kasper schmeichel",
+            "sentence_id": 1
+          },
+          {
+            "title": "peter schmeichel",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Peter Schmeichel",
+          "Kasper Schmeichel",
+          "IFFHS World's Best Goalkeeper",
+          "IFFHS World's Best Club Coach",
+          "Rinat Dasayev",
+          "Kasper Hvidt",
+          "Pelé",
+          "Sommeren '92",
+          "Isaak Hassler",
+          "Kasper Kusk",
+          "Kasper Lorentzen",
+          "Kasper Andersen",
+          "Qazi Touqeer",
+          "Ahmed Marzooq",
+          "Andreas Schäffer"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "kasper schmeichel",
+            "sentence_id": 0
+          },
+          {
+            "title": "kasper schmeichel",
+            "sentence_id": 1
+          },
+          {
+            "title": "peter schmeichel",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Kasper Schmeichel",
+          "Peter Schmeichel",
+          "Rinat Dasayev",
+          "Kasper Hvidt",
+          "Isaak Hassler",
+          "IFFHS World's Best Goalkeeper",
+          "IFFHS World's Best Club Coach",
+          "Pelé",
+          "Kasper Enghardt",
+          "Gus Williams (musician)",
+          "Rinat Dasayev",
+          "Sommeren '92",
+          "Kasper Andersen",
+          "Kasper Kusk",
+          "Kasper Lorentzen"
+        ]
+      }
+    },
+    {
+      "id": "5abd259d55429924427fcf1a",
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "answer": "yes",
+      "gold_facts": [
+        {
+          "title": "dictyosperma",
+          "sentence_id": 0
+        },
+        {
+          "title": "huernia",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "dictyosperma",
+            "sentence_id": 0
+          },
+          {
+            "title": "huernia",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Huernia",
+          "Dictyosperma",
+          "Dioryctria westerlandi",
+          "Diocirea",
+          "Rothmannia",
+          "Prionomyrmex",
+          "Dregea",
+          "Stapelianthus",
+          "Couroupita",
+          "Dacrydium",
+          "Elodea",
+          "Falconeria",
+          "Ehretia",
+          "Diplazium",
+          "Descolea"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "dictyosperma",
+            "sentence_id": 0
+          },
+          {
+            "title": "huernia",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Huernia",
+          "Dictyosperma",
+          "Eudicots",
+          "Rothmannia",
+          "Stephanocereus",
+          "Dioryctria westerlandi",
+          "Diocirea",
+          "Dichroa",
+          "Prionomyrmex",
+          "Dregea",
+          "Stapelianthus",
+          "Couroupita",
+          "Dacrydium",
+          "Elodea",
+          "Falconeria"
+        ]
+      }
+    },
+    {
+      "id": "5a828c8355429966c78a6a50",
+      "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+      "answer": "Henry J. Kaiser",
+      "gold_facts": [
+        {
+          "title": "kaiser ventures",
+          "sentence_id": 0
+        },
+        {
+          "title": "kaiser ventures",
+          "sentence_id": 1
+        },
+        {
+          "title": "henry j. kaiser",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "kaiser ventures",
+            "sentence_id": 0
+          },
+          {
+            "title": "kaiser ventures",
+            "sentence_id": 1
+          },
+          {
+            "title": "henry j. kaiser",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Henry J. Kaiser",
+          "Kaiser Ventures",
+          "Edgar Kaiser Sr.",
+          "Kaiser Shipyards",
+          "Kaiser Shipyards",
+          "Edgar Kaiser Jr.",
+          "John Roach &amp; Sons",
+          "Henry J. Kaiser",
+          "Eagle Mountain Railroad",
+          "New York Shipbuilding Corporation",
+          "Charles and Ray Eames",
+          "Kaiser Ventures",
+          "Neafie &amp; Levy",
+          "Abdul Razzak Yaqoob",
+          "Alticor"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "kaiser ventures",
+            "sentence_id": 0
+          },
+          {
+            "title": "kaiser ventures",
+            "sentence_id": 1
+          },
+          {
+            "title": "henry j. kaiser",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Henry J. Kaiser",
+          "Kaiser Ventures",
+          "Kaiser Shipyards",
+          "Edgar Kaiser Sr.",
+          "Kaiser Shipyards",
+          "Edgar Kaiser Jr.",
+          "John Roach &amp; Sons",
+          "Henry J. Kaiser",
+          "Eagle Mountain Railroad",
+          "New York Shipbuilding Corporation",
+          "Charles and Ray Eames",
+          "Kaiser Ventures",
+          "Neafie &amp; Levy",
+          "Peter Mærsk Møller",
+          "Atlantic Marine"
+        ]
+      }
+    },
+    {
+      "id": "5a8a3e745542996c9b8d5e70",
+      "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+      "answer": "Arena of Khazan",
+      "gold_facts": [
+        {
+          "title": "arena of khazan",
+          "sentence_id": 0
+        },
+        {
+          "title": "tunnels &amp; trolls",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "arena of khazan",
+            "sentence_id": 0
+          },
+          {
+            "title": "tunnels &amp; trolls",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Tunnels &amp; Trolls",
+          "Ken St. Andre",
+          "Arena of Khazan",
+          "Tunnels &amp; Trolls: Crusaders of Khazan",
+          "Mercenaries, Spies and Private Eyes",
+          "The Sorcerer's Cave",
+          "Starfaring",
+          "Steve Crompton",
+          "In Search of Adventure",
+          "Lego Indiana Jones 2: The Adventure Continues",
+          "BioShock (series)",
+          "DreamWorks Trollhunters",
+          "The Church in the Darkness",
+          "Plan 9 from Outer Space (video game)",
+          "Tron Evolution: Battle Grids"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "arena of khazan",
+            "sentence_id": 0
+          },
+          {
+            "title": "tunnels &amp; trolls",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Tunnels &amp; Trolls",
+          "Ken St. Andre",
+          "Tunnels &amp; Trolls: Crusaders of Khazan",
+          "Arena of Khazan",
+          "Steve Crompton",
+          "Mercenaries, Spies and Private Eyes",
+          "The Sorcerer's Cave",
+          "Starfaring",
+          "A Troll in Central Park",
+          "In Search of Adventure",
+          "Jon St. Andre",
+          "Lego Indiana Jones 2: The Adventure Continues",
+          "BioShock (series)",
+          "DreamWorks Trollhunters",
+          "The Church in the Darkness"
+        ]
+      }
+    },
+    {
+      "id": "5ae4a3265542995ad6573de5",
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "answer": "Fujioka, Gunma",
+      "gold_facts": [
+        {
+          "title": "hayden (musician)",
+          "sentence_id": 0
+        },
+        {
+          "title": "buck-tick",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "hayden (musician)",
+            "sentence_id": 0
+          },
+          {
+            "title": "buck-tick",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Hayden (musician)",
+          "Skyscraper National Park",
+          "Atsushi Sakurai",
+          "Mild and Hazy",
+          "Buck-Tick",
+          "Kyo (musician)",
+          "Masami Tsuchiya",
+          "Gessekai",
+          "Joe Buck (musician)",
+          "Craig Marshall",
+          "Jonny Browning",
+          "Canada Goose (clothing)",
+          "Jorge Aguirre (author)",
+          "Hailstorm Alley",
+          "Dewey Beard"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "hayden (musician)",
+            "sentence_id": 0
+          },
+          {
+            "title": "buck-tick",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Hayden (musician)",
+          "Atsushi Sakurai",
+          "Buck-Tick",
+          "Gessekai",
+          "Mild and Hazy",
+          "Skyscraper National Park",
+          "Kyo (musician)",
+          "Masami Tsuchiya",
+          "Peter Buck",
+          "Joe Buck (musician)",
+          "Craig Marshall",
+          "Johnny McDaid",
+          "Jonny Browning",
+          "Trigg Hound",
+          "Kato (producer)"
+        ]
+      }
+    },
+    {
+      "id": "5ae0361155429925eb1afc2c",
+      "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+      "answer": "Charles Eugène",
+      "gold_facts": [
+        {
+          "title": "l'oiseau blanc",
+          "sentence_id": 1
+        },
+        {
+          "title": "charles nungesser",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "l'oiseau blanc",
+            "sentence_id": 1
+          },
+          {
+            "title": "charles nungesser",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "François Coli",
+          "L'Oiseau Blanc",
+          "Charles Nungesser",
+          "Gervais Raoul Lufbery",
+          "Georges Madon",
+          "Paul Sauvage (aviator)",
+          "Levasseur PL.8",
+          "Wooster and Davis",
+          "L'Oiseau bleu (Metzinger)",
+          "W. E. Johns",
+          "Jean-Loup Chrétien",
+          "Manfred Meurer",
+          "Manfred von Richthofen",
+          "L'Oiseau bleu (Metzinger)",
+          "Pascal Mazzotti"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "l'oiseau blanc",
+            "sentence_id": 1
+          },
+          {
+            "title": "charles nungesser",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "François Coli",
+          "L'Oiseau Blanc",
+          "Gervais Raoul Lufbery",
+          "Charles Nungesser",
+          "Paul Sauvage (aviator)",
+          "Georges Madon",
+          "Levasseur PL.8",
+          "Wooster and Davis",
+          "L'Oiseau bleu (Metzinger)",
+          "W. E. Johns",
+          "Jean-Loup Chrétien",
+          "Manfred Meurer",
+          "Jean-François Pilâtre de Rozier",
+          "Manfred von Richthofen",
+          "L'Oiseau bleu (Metzinger)"
+        ]
+      }
+    },
+    {
+      "id": "5abc0a5d5542993f40c73c64",
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "answer": "no",
+      "gold_facts": [
+        {
+          "title": "freakonomics (film)",
+          "sentence_id": 0
+        },
+        {
+          "title": "in the realm of the hackers",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "freakonomics (film)",
+            "sentence_id": 0
+          },
+          {
+            "title": "in the realm of the hackers",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "In the Realm of the Hackers",
+          "Freakonomics (film)",
+          "Hackers (film)",
+          "Freakonomics Radio",
+          "Freaky Eaters (TLC series)",
+          "Heidi Ewing",
+          "American Scary",
+          "Weird Travels",
+          "Freakonomics Radio",
+          "American Crime Story",
+          "Psycho Realm",
+          "HyperNormalisation",
+          "Hjernevask",
+          "Asgard (comics)",
+          "The Rule of Names"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "freakonomics (film)",
+            "sentence_id": 0
+          },
+          {
+            "title": "in the realm of the hackers",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Freakonomics (film)",
+          "In the Realm of the Hackers",
+          "Hackers (film)",
+          "Freakonomics Radio",
+          "Holarctic",
+          "In the Realm of the Hackers",
+          "Freaky Eaters (TLC series)",
+          "Heidi Ewing",
+          "American Scary",
+          "Robin Goldstein",
+          "Angelina Jolie filmography",
+          "Weird Travels",
+          "Freakonomics Radio",
+          "Freak Dance (film)",
+          "Robin Goldstein"
+        ]
+      }
+    },
+    {
+      "id": "5a7cc50e554299452d57ba3e",
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "answer": "Letters to Cleo",
+      "gold_facts": [
+        {
+          "title": "letters to cleo",
+          "sentence_id": 0
+        },
+        {
+          "title": "letters to cleo",
+          "sentence_id": 1
+        },
+        {
+          "title": "screaming trees",
+          "sentence_id": 0
+        },
+        {
+          "title": "screaming trees",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "letters to cleo",
+            "sentence_id": 0
+          },
+          {
+            "title": "letters to cleo",
+            "sentence_id": 1
+          },
+          {
+            "title": "screaming trees",
+            "sentence_id": 0
+          },
+          {
+            "title": "screaming trees",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Letters to Cleo",
+          "Screaming Trees discography",
+          "Screaming Trees",
+          "Truly",
+          "American Hi-Fi",
+          "Screaming Trees",
+          "Van Conner",
+          "Skin Yard",
+          "Mad Season (band)",
+          "Forest for the Trees",
+          "Gary Lee Conner",
+          "Beat Happening/Screaming Trees",
+          "Change Has Come",
+          "Diamond Rio",
+          "Mabel Greer's Toyshop"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "letters to cleo",
+            "sentence_id": 0
+          },
+          {
+            "title": "letters to cleo",
+            "sentence_id": 1
+          },
+          {
+            "title": "screaming trees",
+            "sentence_id": 0
+          },
+          {
+            "title": "screaming trees",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Screaming Trees discography",
+          "Screaming Trees",
+          "Screaming Trees",
+          "Letters to Cleo",
+          "Change Has Come",
+          "Truly",
+          "American Hi-Fi",
+          "Van Conner",
+          "Clairvoyance (album)",
+          "Skin Yard",
+          "Mad Season (band)",
+          "Forest for the Trees",
+          "Gary Lee Conner",
+          "Beat Happening/Screaming Trees",
+          "Jamboree (Beat Happening album)"
+        ]
+      }
+    },
+    {
+      "id": "5abf63f15542997ec76fd3ea",
+      "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+      "answer": "October 1922",
+      "gold_facts": [
+        {
+          "title": "socialist revolutionary party",
+          "sentence_id": 5
+        },
+        {
+          "title": "russian civil war",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "socialist revolutionary party",
+            "sentence_id": 5
+          },
+          {
+            "title": "russian civil war",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Socialist Revolutionary Party",
+          "Kerensky–Krasnov uprising",
+          "Lavr Kornilov",
+          "Russian Civil War",
+          "Battle of Romanovka",
+          "Communism in Russia",
+          "Left-wing uprisings against the Bolsheviks",
+          "Ukrainian War of Independence",
+          "Left-wing uprisings against the Bolsheviks",
+          "Louise Bryant",
+          "Ewen Cameron Bruce",
+          "Timofey Samsonov",
+          "Battle of Romanovka",
+          "Anastas Mikoyan",
+          "Nicholas I of Russia"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "socialist revolutionary party",
+            "sentence_id": 5
+          },
+          {
+            "title": "russian civil war",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Kerensky–Krasnov uprising",
+          "Socialist Revolutionary Party",
+          "Communism in Russia",
+          "Battle of Romanovka",
+          "Lavr Kornilov",
+          "Alexander Kerensky",
+          "Russian Civil War",
+          "Left-wing uprisings against the Bolsheviks",
+          "Ukrainian War of Independence",
+          "Left-wing uprisings against the Bolsheviks",
+          "Battle of Tannenberg",
+          "Alexander Nikolayev",
+          "Alexander Kerensky",
+          "Louise Bryant",
+          "Communism in Russia"
+        ]
+      }
+    },
+    {
+      "id": "5a8ef2a75542995a26add583",
+      "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+      "answer": "2000",
+      "gold_facts": [
+        {
+          "title": "seven brief lessons on physics",
+          "sentence_id": 0
+        },
+        {
+          "title": "carlo rovelli",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "seven brief lessons on physics",
+            "sentence_id": 0
+          },
+          {
+            "title": "carlo rovelli",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Seven Brief Lessons on Physics",
+          "Carlo Rovelli",
+          "Émile Verdet",
+          "Antonino Lo Surdo",
+          "Claudio Pellegrini",
+          "Guido Caldarelli",
+          "Aldo Pontremoli",
+          "Sergio Ferrara",
+          "Chiara Nappi",
+          "Serge Haroche",
+          "William Allen Zajc",
+          "Paul Frédéric Culmann",
+          "Andrew Gemant",
+          "Miklos Porkolab",
+          "Zhang Rong (physicist)"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "seven brief lessons on physics",
+            "sentence_id": 0
+          },
+          {
+            "title": "carlo rovelli",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Seven Brief Lessons on Physics",
+          "Carlo Rovelli",
+          "Chiara Nappi",
+          "Guido Caldarelli",
+          "Antonino Lo Surdo",
+          "Émile Verdet",
+          "Claudio Pellegrini",
+          "Aldo Pontremoli",
+          "Sergio Ferrara",
+          "Émilie du Châtelet",
+          "Giorgi Dvali",
+          "Serge Haroche",
+          "William Allen Zajc",
+          "Paul Frédéric Culmann",
+          "Konstantin Novoselov"
+        ]
+      }
+    },
+    {
+      "id": "5a80721b554299485f5985ef",
+      "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+      "answer": "World War II",
+      "gold_facts": [
+        {
+          "title": "livesey hall war memorial",
+          "sentence_id": 0
+        },
+        {
+          "title": "world war ii casualties",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "livesey hall war memorial",
+            "sentence_id": 0
+          },
+          {
+            "title": "world war ii casualties",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Livesey Hall War Memorial",
+          "Rainham War Memorial",
+          "Attack on Pearl Harbor in popular culture",
+          "Alamein Memorial",
+          "Freetown Memorial",
+          "Arras Flying Services Memorial",
+          "Tower Hill Memorial",
+          "Port Talbot War Memorial",
+          "Portsmouth Naval Memorial",
+          "World War II casualties",
+          "Vietnam War Memorial, Hanoi",
+          "Masnières Newfoundland Memorial",
+          "Port Talbot War Memorial",
+          "Dras War Memorial",
+          "Portsmouth Naval Memorial"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "livesey hall war memorial",
+            "sentence_id": 0
+          },
+          {
+            "title": "world war ii casualties",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Livesey Hall War Memorial",
+          "Rainham War Memorial",
+          "Alamein Memorial",
+          "Freetown Memorial",
+          "Vietnam War Memorial, Hanoi",
+          "Attack on Pearl Harbor in popular culture",
+          "Arras Flying Services Memorial",
+          "Tower Hill Memorial",
+          "USS Arizona Memorial",
+          "Port Talbot War Memorial",
+          "Portsmouth Naval Memorial",
+          "World War II casualties",
+          "Wood Green War Memorial",
+          "York City War Memorial",
+          "Masnières Newfoundland Memorial"
+        ]
+      }
+    },
+    {
+      "id": "5ab51dae5542991779162d82",
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "answer": "no",
+      "gold_facts": [
+        {
+          "title": "elko regional airport",
+          "sentence_id": 0
+        },
+        {
+          "title": "gerald r. ford international airport",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "elko regional airport",
+            "sentence_id": 0
+          },
+          {
+            "title": "gerald r. ford international airport",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Gerald R. Ford International Airport",
+          "Elko Regional Airport",
+          "Bishop International Airport",
+          "Detroit Metropolitan Airport",
+          "Gerald R. Ford Freeway",
+          "Detroit Metropolitan Airport",
+          "Sawyer International Airport",
+          "Gerald R. Ford Presidential Library",
+          "Muskegon County Airport",
+          "ExpressTram",
+          "Duluth International Airport",
+          "John Glenn Columbus International Airport",
+          "Grand Junction Regional Airport",
+          "Susquehanna Area Regional Airport Authority",
+          "Central Illinois Regional Airport"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "elko regional airport",
+            "sentence_id": 0
+          },
+          {
+            "title": "gerald r. ford international airport",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Gerald R. Ford International Airport",
+          "Elko Regional Airport",
+          "Detroit Metropolitan Airport",
+          "Bishop International Airport",
+          "John Glenn Columbus International Airport",
+          "Gerald R. Ford Freeway",
+          "Detroit Metropolitan Airport",
+          "Sawyer International Airport",
+          "Gerald R. Ford Presidential Library",
+          "Muskegon County Airport",
+          "ExpressTram",
+          "Huron Regional Airport",
+          "Bishop International Airport",
+          "West Kootenay Regional Airport",
+          "Duluth International Airport"
+        ]
+      }
+    },
+    {
+      "id": "5a7a0e1e5542990783324e1a",
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "answer": "Scotch Collie",
+      "gold_facts": [
+        {
+          "title": "manchester terrier",
+          "sentence_id": 0
+        },
+        {
+          "title": "scotch collie",
+          "sentence_id": 0
+        },
+        {
+          "title": "scotch collie",
+          "sentence_id": 3
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "manchester terrier",
+            "sentence_id": 0
+          },
+          {
+            "title": "scotch collie",
+            "sentence_id": 0
+          },
+          {
+            "title": "scotch collie",
+            "sentence_id": 3
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Scotch Collie",
+          "English Setter",
+          "Irish Red and White Setter",
+          "Teddy Roosevelt Terrier",
+          "Irish Setter",
+          "Manchester Terrier",
+          "Florence Nagle",
+          "Toy Manchester Terrier",
+          "Black and Tan Virginia Foxhound",
+          "Noble Huston",
+          "Russkiy Toy",
+          "Scottish Terrier",
+          "Kerry Blue Terrier",
+          "Border Terrier",
+          "Bull and Terrier"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "manchester terrier",
+            "sentence_id": 0
+          },
+          {
+            "title": "scotch collie",
+            "sentence_id": 0
+          },
+          {
+            "title": "scotch collie",
+            "sentence_id": 3
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Scotch Collie",
+          "Irish Red and White Setter",
+          "English Setter",
+          "Manchester Terrier",
+          "Teddy Roosevelt Terrier",
+          "Irish Setter",
+          "Florence Nagle",
+          "Toy Manchester Terrier",
+          "Black and Tan Virginia Foxhound",
+          "Feist (dog)",
+          "Noble Huston",
+          "Russkiy Toy",
+          "Scottish Terrier",
+          "Kerry Blue Terrier",
+          "Collie"
+        ]
+      }
+    },
+    {
+      "id": "5ab2d3df554299194fa9352c",
+      "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+      "answer": "sovereignty",
+      "gold_facts": [
+        {
+          "title": "giuseppe arimondi",
+          "sentence_id": 2
+        },
+        {
+          "title": "battle of adwa",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "giuseppe arimondi",
+            "sentence_id": 2
+          },
+          {
+            "title": "battle of adwa",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Giuseppe Arimondi",
+          "Battle of Adwa",
+          "Treaty of Addis Ababa",
+          "Second Battle of Agordat",
+          "First Italo-Ethiopian War",
+          "First Italo-Ethiopian War",
+          "Outline of Ethiopia",
+          "First Italo-Ethiopian War",
+          "Battle of Aspromonte",
+          "Italians of Ethiopia",
+          "Foreign relations of Ethiopia",
+          "Ethiopia–Japan relations",
+          "Polyxenidas",
+          "Bleschames",
+          "Giuseppe Verdi (film)"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "giuseppe arimondi",
+            "sentence_id": 2
+          },
+          {
+            "title": "battle of adwa",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Battle of Adwa",
+          "Giuseppe Arimondi",
+          "Treaty of Addis Ababa",
+          "Second Battle of Agordat",
+          "Polyxenidas",
+          "First Italo-Ethiopian War",
+          "First Italo-Ethiopian War",
+          "Outline of Ethiopia",
+          "First Italo-Ethiopian War",
+          "Battle of Aspromonte",
+          "First Italo-Ethiopian War",
+          "Italians of Ethiopia",
+          "Italians of Ethiopia",
+          "Italians of Ethiopia",
+          "Ethiopia–Sudan relations"
+        ]
+      }
+    },
+    {
+      "id": "5a7d54165542995f4f402256",
+      "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+      "answer": "Yellowcraig",
+      "gold_facts": [
+        {
+          "title": "yellowcraigs",
+          "sentence_id": 0
+        },
+        {
+          "title": "yellowcraigs",
+          "sentence_id": 1
+        },
+        {
+          "title": "yellowcraigs",
+          "sentence_id": 2
+        },
+        {
+          "title": "dirleton castle",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "yellowcraigs",
+            "sentence_id": 0
+          },
+          {
+            "title": "yellowcraigs",
+            "sentence_id": 1
+          },
+          {
+            "title": "yellowcraigs",
+            "sentence_id": 2
+          },
+          {
+            "title": "dirleton castle",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Dirleton Castle",
+          "Yellowcraigs",
+          "Tantallon Castle",
+          "Dirleton",
+          "Dirleton Kirk",
+          "Lothian and Borders",
+          "Lord Haliburton of Dirleton",
+          "Bonkyll Castle",
+          "Scottish Borders",
+          "Cowie Castle",
+          "Haddington, East Lothian",
+          "St. Mary's Priory (Lothian)",
+          "MacLellan's Castle",
+          "Roslin Castle",
+          "Kingdom of Northumbria"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "yellowcraigs",
+            "sentence_id": 0
+          },
+          {
+            "title": "yellowcraigs",
+            "sentence_id": 1
+          },
+          {
+            "title": "yellowcraigs",
+            "sentence_id": 2
+          },
+          {
+            "title": "dirleton castle",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Dirleton Castle",
+          "Lothian and Borders",
+          "Scottish Borders",
+          "Dirleton Kirk",
+          "Dirleton",
+          "Yellowcraigs",
+          "Tantallon Castle",
+          "Lord Haliburton of Dirleton",
+          "Bonkyll Castle",
+          "Cowie Castle",
+          "Inverallochy Castle",
+          "Haddington, East Lothian",
+          "St. Mary's Priory (Lothian)",
+          "MacLellan's Castle",
+          "Bass Rock (disambiguation)"
+        ]
+      }
+    },
+    {
+      "id": "5a8e068b5542995085b37384",
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "answer": "yes",
+      "gold_facts": [
+        {
+          "title": "ferocactus",
+          "sentence_id": 0
+        },
+        {
+          "title": "silene",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "ferocactus",
+            "sentence_id": 0
+          },
+          {
+            "title": "silene",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Silene",
+          "Silene conoidea",
+          "Ferocactus",
+          "Silene antirrhina",
+          "Silene suksdorfii",
+          "Silene tomentosa",
+          "Silene stenophylla",
+          "Silene menziesii",
+          "Echinocactus",
+          "Silene latifolia",
+          "Sex determination in Silene",
+          "Sex determination in Silene",
+          "Silphium (genus)",
+          "Alyxia oliviformis",
+          "Festuca gigantea"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "ferocactus",
+            "sentence_id": 0
+          },
+          {
+            "title": "silene",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "Ferocactus",
+          "Sex determination in Silene",
+          "Silene conoidea",
+          "Silene antirrhina",
+          "Silene stenophylla",
+          "Silene",
+          "Silene suksdorfii",
+          "Silene tomentosa",
+          "Silene menziesii",
+          "Echinocactus",
+          "Silene latifolia",
+          "Sex determination in Silene",
+          "Silphium (genus)",
+          "Alyxia oliviformis",
+          "Festuca"
+        ]
+      }
+    },
+    {
+      "id": "5abbf698554299114383a0b5",
+      "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+      "answer": "English Electric Canberra",
+      "gold_facts": [
+        {
+          "title": "no. 2 squadron raaf",
+          "sentence_id": 5
+        },
+        {
+          "title": "english electric canberra",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "no. 2 squadron raaf",
+            "sentence_id": 5
+          },
+          {
+            "title": "english electric canberra",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "English Electric Canberra",
+          "No. 2 Squadron RAAF",
+          "Tupolev Tu-12",
+          "South West Pacific theatre of World War II",
+          "No. 12 Squadron RAAF",
+          "English Electric Canberra",
+          "South West Pacific Area (command)",
+          "Savoia-Marchetti SM.79",
+          "Pacific War",
+          "No. 466 Squadron RAAF",
+          "South Pacific air ferry route in World War II",
+          "Mitsubishi Ki-1",
+          "Yokosuka B4Y",
+          "Gotha Go 145",
+          "Vickers machine gun"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": true,
+        "coverage": 1.0,
+        "matched_facts": [
+          {
+            "title": "no. 2 squadron raaf",
+            "sentence_id": 5
+          },
+          {
+            "title": "english electric canberra",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [],
+        "retrieved_titles": [
+          "English Electric Canberra",
+          "No. 2 Squadron RAAF",
+          "South West Pacific theatre of World War II",
+          "English Electric Canberra",
+          "No. 466 Squadron RAAF",
+          "Tupolev Tu-12",
+          "No. 12 Squadron RAAF",
+          "South West Pacific Area (command)",
+          "Savoia-Marchetti SM.79",
+          "Pacific War",
+          "No. 464 Squadron RAAF",
+          "Asiatic-Pacific Theater",
+          "No. 467 Squadron RAAF",
+          "South Pacific air ferry route in World War II",
+          "Coastwatchers"
+        ]
+      }
+    }
+  ],
+  "both_wrong": [
+    {
+      "id": "5a8c7595554299585d9e36b6",
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "answer": "Chief of Protocol",
+      "gold_facts": [
+        {
+          "title": "kiss and tell (1945 film)",
+          "sentence_id": 0
+        },
+        {
+          "title": "shirley temple",
+          "sentence_id": 0
+        },
+        {
+          "title": "shirley temple",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.3333333333333333,
+        "matched_facts": [
+          {
+            "title": "kiss and tell (1945 film)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "shirley temple",
+            "sentence_id": 0
+          },
+          {
+            "title": "shirley temple",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "Kiss and Tell (1945 film)",
+          "A Kiss for Corliss",
+          "Janet Waldo",
+          "Cheryl Tunt",
+          "Carole Post",
+          "Meet Corliss Archer (TV series)",
+          "The Prodigal Daughter",
+          "Krystal Meadows",
+          "Nora Lewin",
+          "Jessica Walter",
+          "List of Archer episodes",
+          "Judy Greer",
+          "Get Him to the Greek",
+          "Archer (TV series)",
+          "Kris Williams (filmmaker)"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.3333333333333333,
+        "matched_facts": [
+          {
+            "title": "kiss and tell (1945 film)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "shirley temple",
+            "sentence_id": 0
+          },
+          {
+            "title": "shirley temple",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "Kiss and Tell (1945 film)",
+          "A Kiss for Corliss",
+          "Meet Corliss Archer (TV series)",
+          "Janet Waldo",
+          "List of Archer episodes",
+          "Cheryl Tunt",
+          "Carole Post",
+          "The Prodigal Daughter",
+          "Emily Atack",
+          "Krystal Meadows",
+          "Meet Corliss Archer",
+          "Nora Lewin",
+          "Jessica Walter",
+          "The Kiss (1929 film)",
+          "Shannyn Sossamon"
+        ]
+      }
+    },
+    {
+      "id": "5a85ea095542994775f606a8",
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "answer": "Animorphs",
+      "gold_facts": [
+        {
+          "title": "the hork-bajir chronicles",
+          "sentence_id": 0
+        },
+        {
+          "title": "the hork-bajir chronicles",
+          "sentence_id": 1
+        },
+        {
+          "title": "the hork-bajir chronicles",
+          "sentence_id": 2
+        },
+        {
+          "title": "animorphs",
+          "sentence_id": 0
+        },
+        {
+          "title": "animorphs",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.4,
+        "matched_facts": [
+          {
+            "title": "animorphs",
+            "sentence_id": 0
+          },
+          {
+            "title": "animorphs",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "the hork-bajir chronicles",
+            "sentence_id": 0
+          },
+          {
+            "title": "the hork-bajir chronicles",
+            "sentence_id": 1
+          },
+          {
+            "title": "the hork-bajir chronicles",
+            "sentence_id": 2
+          }
+        ],
+        "retrieved_titles": [
+          "Animorphs",
+          "A Wind in the Door",
+          "Talking to Dragons",
+          "Victoria Hanley",
+          "Isaac Asimov's Magical Worlds of Fantasy",
+          "Imaginary Worlds: The Art of Fantasy",
+          "Will Grayson, Will Grayson",
+          "The Spiderwick Chronicles",
+          "The Many Worlds of Poul Anderson",
+          "Witches (anthology)",
+          "Wizards (Asimov anthology)",
+          "The Dandelion Girl",
+          "Earthman's Burden",
+          "First North Americans",
+          "Hoka! Hoka! Hoka!"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.8,
+        "matched_facts": [
+          {
+            "title": "the hork-bajir chronicles",
+            "sentence_id": 0
+          },
+          {
+            "title": "the hork-bajir chronicles",
+            "sentence_id": 1
+          },
+          {
+            "title": "animorphs",
+            "sentence_id": 0
+          },
+          {
+            "title": "animorphs",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "the hork-bajir chronicles",
+            "sentence_id": 2
+          }
+        ],
+        "retrieved_titles": [
+          "Imaginary Worlds: The Art of Fantasy",
+          "Earthman's Burden",
+          "The Many Worlds of Poul Anderson",
+          "First North Americans",
+          "Animorphs",
+          "A Wind in the Door",
+          "Talking to Dragons",
+          "Victoria Hanley",
+          "Isaac Asimov's Magical Worlds of Fantasy",
+          "Andre Norton Award",
+          "The Hork-Bajir Chronicles",
+          "Science Fantasy (magazine)",
+          "The Best Science Fiction Stories: 1952",
+          "Will Grayson, Will Grayson",
+          "K. A. Applegate"
+        ]
+      }
+    },
+    {
+      "id": "5a8e3ea95542995a26add48d",
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "answer": "Greenwich Village, New York City",
+      "gold_facts": [
+        {
+          "title": "big stone gap (film)",
+          "sentence_id": 0
+        },
+        {
+          "title": "adriana trigiani",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "big stone gap (film)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "adriana trigiani",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Big Stone Gap (film)",
+          "Nola (film)",
+          "The Big Split",
+          "I Love NY (2015 film)",
+          "Manhattan Romance",
+          "Kingston Morning",
+          "Mind the Gap Theatre",
+          "Steve Cosson",
+          "The Yankee Girl",
+          "Crazy Stone (film)",
+          "Oliver Stone",
+          "Force of Execution",
+          "Alexander Garvin",
+          "Whole Lotta Sole",
+          "Christopher Romero"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "big stone gap (film)",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "adriana trigiani",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Big Stone Gap (film)",
+          "Manhattan Romance",
+          "Clinton, Minnesota",
+          "Oliver Stone",
+          "New York Mets",
+          "Nola (film)",
+          "The Big Split",
+          "I Love NY (2015 film)",
+          "The Big Brain",
+          "Hamish and Andy's Gap Year",
+          "The Big House (1930 film)",
+          "Kingston Morning",
+          "Brooklyn (film)",
+          "I Cover Big Town",
+          "Mind the Gap Theatre"
+        ]
+      }
+    },
+    {
+      "id": "5a8db19d5542994ba4e3dd00",
+      "question": "Are Local H and For Against both from the United States?",
+      "answer": "yes",
+      "gold_facts": [
+        {
+          "title": "local h",
+          "sentence_id": 0
+        },
+        {
+          "title": "for against",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "local h",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "for against",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Local H",
+          "The Team EP",
+          "History of paleontology in the United States",
+          "Amherst, Massachusetts",
+          "Polka",
+          "Reagan Democrat",
+          "Mendocino County GMO Ban",
+          "Kansas Army National Guard",
+          "Stewart Nozette",
+          "H&amp;R Block",
+          "George H. Williams Townhouses",
+          "William H. Cook Water Tank House",
+          "Cline Shale",
+          "Ag-gag",
+          "Hemlock woolly adelgid"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "local h",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "for against",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Amherst, Massachusetts",
+          "Hemlock woolly adelgid",
+          "Polka",
+          "Local H",
+          "Special 301 Report",
+          "Local H's Awesome Mix Tape 2",
+          "The Team EP",
+          "Mendocino County GMO Ban",
+          "Suffrajett",
+          "History of paleontology in the United States",
+          "Ophur",
+          "Reagan Democrat",
+          "Mendocino County GMO Ban",
+          "H Mart",
+          "United States Senate election in Oklahoma, 2014"
+        ]
+      }
+    },
+    {
+      "id": "5ab6d09255429954757d337d",
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "answer": "from 1986 to 2013",
+      "gold_facts": [
+        {
+          "title": "1995–96 manchester united f.c. season",
+          "sentence_id": 2
+        },
+        {
+          "title": "1995–96 manchester united f.c. season",
+          "sentence_id": 3
+        },
+        {
+          "title": "alex ferguson",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.3333333333333333,
+        "matched_facts": [
+          {
+            "title": "alex ferguson",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "1995–96 manchester united f.c. season",
+            "sentence_id": 2
+          },
+          {
+            "title": "1995–96 manchester united f.c. season",
+            "sentence_id": 3
+          }
+        ],
+        "retrieved_titles": [
+          "Matt Busby",
+          "Ernest Mangnall",
+          "Alex Ferguson",
+          "Joshua Parlby",
+          "Peter Taylor (footballer, born 1953)",
+          "The Class of '92",
+          "Sir Matt Busby Sports Complex",
+          "David Beckham",
+          "Jack Eskridge",
+          "Manchester United F.C. league record by opponent",
+          "List of Manchester United F.C. seasons",
+          "List of Manchester United F.C. managers",
+          "History of Manchester United F.C. (1945–69)",
+          "Glazer ownership of Manchester United",
+          "1996 FA Charity Shield"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.3333333333333333,
+        "matched_facts": [
+          {
+            "title": "alex ferguson",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "1995–96 manchester united f.c. season",
+            "sentence_id": 2
+          },
+          {
+            "title": "1995–96 manchester united f.c. season",
+            "sentence_id": 3
+          }
+        ],
+        "retrieved_titles": [
+          "Ernest Mangnall",
+          "Matt Busby",
+          "Joshua Parlby",
+          "David Beckham Academy",
+          "Alex Ferguson",
+          "Peter Taylor (footballer, born 1953)",
+          "The Class of '92",
+          "Manchester United F.C. league record by opponent",
+          "Sir Matt Busby Sports Complex",
+          "David Beckham",
+          "Jack Eskridge",
+          "Manchester United F.C. league record by opponent",
+          "2013–14 Everton F.C. season",
+          "List of Manchester United F.C. seasons",
+          "List of Manchester United F.C. managers"
+        ]
+      }
+    },
+    {
+      "id": "5ab3e45655429976abd1bcd4",
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "answer": "the North Atlantic Conference",
+      "gold_facts": [
+        {
+          "title": "vermont catamounts men's soccer",
+          "sentence_id": 0
+        },
+        {
+          "title": "vermont catamounts men's soccer",
+          "sentence_id": 1
+        },
+        {
+          "title": "america east conference",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.6666666666666666,
+        "matched_facts": [
+          {
+            "title": "vermont catamounts men's soccer",
+            "sentence_id": 0
+          },
+          {
+            "title": "vermont catamounts men's soccer",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "america east conference",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "Vermont Catamounts men's soccer",
+          "Vermont Catamounts men's basketball",
+          "Vermont Catamounts men's ice hockey",
+          "2016–17 Vermont Catamounts men's basketball team",
+          "2010–11 Vermont Catamounts men's basketball team",
+          "2015–16 Vermont Catamounts men's basketball team",
+          "2012–13 Vermont Catamounts men's basketball team",
+          "2013–14 Vermont Catamounts men's basketball team",
+          "2011–12 Vermont Catamounts men's basketball team",
+          "Vermont Catamounts men's ice hockey",
+          "Robert Morris Colonials men's basketball",
+          "Wake Forest Demon Deacons men's soccer",
+          "Cal Poly Mustangs men's soccer",
+          "1988 Georgia Tech Yellow Jackets football team",
+          "1987 Georgia Tech Yellow Jackets football team"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.6666666666666666,
+        "matched_facts": [
+          {
+            "title": "vermont catamounts men's soccer",
+            "sentence_id": 0
+          },
+          {
+            "title": "vermont catamounts men's soccer",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "america east conference",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "Vermont Catamounts men's soccer",
+          "Vermont Catamounts men's basketball",
+          "Vermont Catamounts men's ice hockey",
+          "2015–16 Vermont Catamounts men's basketball team",
+          "2010–11 Vermont Catamounts men's basketball team",
+          "2016–17 Vermont Catamounts men's basketball team",
+          "2012–13 Vermont Catamounts men's basketball team",
+          "2013–14 Vermont Catamounts men's basketball team",
+          "2011–12 Vermont Catamounts men's basketball team",
+          "Vermont Catamounts men's ice hockey",
+          "Robert Morris Colonials men's basketball",
+          "Wake Forest Demon Deacons men's soccer",
+          "Cal Poly Mustangs men's soccer",
+          "Florida Atlantic Owls men's soccer",
+          "Green Bay Phoenix men's soccer"
+        ]
+      }
+    },
+    {
+      "id": "5ae0d4c9554299603e418468",
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "answer": "1969 until 1974",
+      "gold_facts": [
+        {
+          "title": "roger o. egeberg",
+          "sentence_id": 2
+        },
+        {
+          "title": "richard nixon",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "roger o. egeberg",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "richard nixon",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Roger O. Egeberg",
+          "Roger O. Egeberg",
+          "Douglas J. Bennet",
+          "Steven K. Galson",
+          "Steven K. Galson",
+          "Evelyn S. Lieberman",
+          "David Malpass",
+          "William Flynn Martin",
+          "Edward C. Hugler",
+          "Office of Population Affairs",
+          "Alicia Munnell",
+          "Assistant Secretary of State for Public Affairs",
+          "David M. Kennedy",
+          "Tom Bossert",
+          "Robert R. Hood"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "roger o. egeberg",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "richard nixon",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Roger O. Egeberg",
+          "Steven K. Galson",
+          "Roger O. Egeberg",
+          "Douglas J. Bennet",
+          "Alicia Munnell",
+          "Nelson Rockefeller",
+          "Steven K. Galson",
+          "Evelyn S. Lieberman",
+          "David Malpass",
+          "William Flynn Martin",
+          "Edward C. Hugler",
+          "Office of Population Affairs",
+          "Geoff Morrell (spokesperson)",
+          "Assistant Secretary of State for Public Affairs",
+          "David M. Kennedy"
+        ]
+      }
+    },
+    {
+      "id": "5a722b8655429971e9dc9329",
+      "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "answer": "Barton Lee Hazlewood",
+      "gold_facts": [
+        {
+          "title": "these boots are made for walkin'",
+          "sentence_id": 0
+        },
+        {
+          "title": "lee hazlewood",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "these boots are made for walkin'",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "lee hazlewood",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "These Boots Are Made for Walkin'",
+          "Boots (EP)",
+          "The Twenty-fifth Anniversary Anthology",
+          "Boots (album)",
+          "Nancy Sinatra",
+          "Puss N' Boots/These Boots Are Made for Walkin'",
+          "Kon Kan",
+          "Dead Man Walkin'",
+          "Dead in the Boot",
+          "In Her Shoes (novel)",
+          "Dead Man's Shoes (2004 film)",
+          "Ugg boots",
+          "Dr. Martens",
+          "Boots and Hearts Music Festival",
+          "Eric Person"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "these boots are made for walkin'",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "lee hazlewood",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Boots (EP)",
+          "These Boots Are Made for Walkin'",
+          "Boots (album)",
+          "Nancy Sinatra",
+          "The Twenty-fifth Anniversary Anthology",
+          "Puss N' Boots/These Boots Are Made for Walkin'",
+          "Kon Kan",
+          "Dead Man Walkin'",
+          "Dead in the Boot",
+          "In Her Shoes (novel)",
+          "I Am a Dalek",
+          "Dead Man's Shoes (2004 film)",
+          "Daryl Dixon",
+          "Cavalier boots",
+          "Ugg boots"
+        ]
+      }
+    },
+    {
+      "id": "5adf37a95542995ec70e8f97",
+      "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "answer": "1838",
+      "gold_facts": [
+        {
+          "title": "2011–12 vcu rams men's basketball team",
+          "sentence_id": 2
+        },
+        {
+          "title": "virginia commonwealth university",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "2011–12 vcu rams men's basketball team",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "virginia commonwealth university",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "2011–12 VCU Rams men's basketball team",
+          "2010–11 VCU Rams men's basketball team",
+          "2012–13 VCU Rams men's basketball team",
+          "2013–14 VCU Rams men's basketball team",
+          "2014–15 VCU Rams men's basketball team",
+          "2009–10 VCU Rams men's basketball team",
+          "2004–05 VCU Rams men's basketball team",
+          "2015–16 VCU Rams men's basketball team",
+          "1995–96 VCU Rams men's basketball team",
+          "2011–12 Vermont Catamounts men's basketball team",
+          "2011–12 Syracuse Orange men's basketball team",
+          "Old Dominion–VCU basketball rivalry",
+          "2010–11 VCU Rams men's basketball team",
+          "2016–17 Old Dominion Monarchs basketball team",
+          "Rhode Island Rams men's basketball"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "2011–12 vcu rams men's basketball team",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "virginia commonwealth university",
+            "sentence_id": 1
+          }
+        ],
+        "retrieved_titles": [
+          "2011–12 VCU Rams men's basketball team",
+          "2010–11 VCU Rams men's basketball team",
+          "2012–13 VCU Rams men's basketball team",
+          "2013–14 VCU Rams men's basketball team",
+          "2014–15 VCU Rams men's basketball team",
+          "2009–10 VCU Rams men's basketball team",
+          "2004–05 VCU Rams men's basketball team",
+          "2015–16 VCU Rams men's basketball team",
+          "1995–96 VCU Rams men's basketball team",
+          "2011–12 Iona Gaels men's basketball team",
+          "2011–12 Wagner Seahawks men's basketball team",
+          "2011–12 Vermont Catamounts men's basketball team",
+          "2011–12 Syracuse Orange men's basketball team",
+          "Old Dominion–VCU basketball rivalry",
+          "2010–11 Iona Gaels men's basketball team"
+        ]
+      }
+    },
+    {
+      "id": "5a7571135542992d0ec05f98",
+      "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+      "answer": "New York City",
+      "gold_facts": [
+        {
+          "title": "ralph hefferline",
+          "sentence_id": 0
+        },
+        {
+          "title": "columbia university",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "ralph hefferline",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "columbia university",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Ralph Hefferline",
+          "Robert L. Selman",
+          "Raymond Chang (chemist)",
+          "David C. Funder",
+          "Aaron Brower",
+          "John Markowitz",
+          "Donald Kuspit",
+          "Rodney Benson",
+          "Willard Gaylin",
+          "Frank L. Schmidt",
+          "New York State Psychiatric Institute",
+          "Achille Mbembe",
+          "Mark B. Sobell",
+          "E. Mavis Hetherington",
+          "Beatrice Edgell"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "ralph hefferline",
+            "sentence_id": 0
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "columbia university",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Ralph Hefferline",
+          "Aaron Brower",
+          "Willard Gaylin",
+          "Kimberly Young",
+          "Robert L. Selman",
+          "Raymond Chang (chemist)",
+          "Ralph Faudree",
+          "Jose Acacio de Barros",
+          "David C. Funder",
+          "John Markowitz",
+          "Donald Kuspit",
+          "Rodney Benson",
+          "Thomas Szasz",
+          "Frank L. Schmidt",
+          "New York State Psychiatric Institute"
+        ]
+      }
+    },
+    {
+      "id": "5a74106b55429979e288289e",
+      "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+      "answer": "Mumbai",
+      "gold_facts": [
+        {
+          "title": "sachin warrier",
+          "sentence_id": 3
+        },
+        {
+          "title": "tata consultancy services",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "sachin warrier",
+            "sentence_id": 3
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "tata consultancy services",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Sachin Warrier",
+          "Sachin Bansal",
+          "William Connolley",
+          "Kristof Konrad",
+          "Alec Muffett",
+          "Charles Cecil",
+          "Wes McKinney",
+          "SAP SE",
+          "Arm Holdings",
+          "AVG Technologies",
+          "Utpal K. Banerjee",
+          "Muthuchippi Poloru",
+          "Windmill Software",
+          "Lead programmer",
+          "Lalit Surajmal Kanodia"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "sachin warrier",
+            "sentence_id": 3
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "tata consultancy services",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Sachin Warrier",
+          "Sachin Bansal",
+          "William Connolley",
+          "Charles Cecil",
+          "Alec Muffett",
+          "F. C. Kohli",
+          "Kristof Konrad",
+          "Anthony Finkelstein",
+          "Wes McKinney",
+          "Divya S. Menon",
+          "SAP SE",
+          "Arm Holdings",
+          "AVG Technologies",
+          "Keith Bostic",
+          "Utpal K. Banerjee"
+        ]
+      }
+    },
+    {
+      "id": "5a79311755429970f5fffe67",
+      "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+      "answer": "1962",
+      "gold_facts": [
+        {
+          "title": "masakazu katsura",
+          "sentence_id": 0
+        },
+        {
+          "title": "i&quot;s",
+          "sentence_id": 1
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "i&quot;s",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "masakazu katsura",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "I&quot;s",
+          "Haven't You Heard? I'm Sakamoto",
+          "Silver Spoon (manga)",
+          "The Kindaichi Case Files",
+          "Koi Kaze",
+          "Kaze Hikaru",
+          "Shamo (manga)",
+          "Seito Shokun!",
+          "Neuro: Supernatural Detective",
+          "Clear Skies!",
+          "Cross Manage",
+          "I&quot;s",
+          "Manga Bible (series)",
+          "My Bride is a Mermaid",
+          "Toward the Terra"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.5,
+        "matched_facts": [
+          {
+            "title": "i&quot;s",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "masakazu katsura",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "I&quot;s",
+          "Manga Bible (series)",
+          "Shamo (manga)",
+          "Log Horizon",
+          "The Kindaichi Case Files",
+          "Haven't You Heard? I'm Sakamoto",
+          "Silver Spoon (manga)",
+          "Koi Kaze",
+          "Kaze Hikaru",
+          "Seito Shokun!",
+          "Neuro: Supernatural Detective",
+          "Touch (manga)",
+          "Clear Skies!",
+          "Cross Manage",
+          "The Prince of Tennis"
+        ]
+      }
+    },
+    {
+      "id": "5a760ab65542994ccc918697",
+      "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+      "answer": "Nelson Rockefeller",
+      "gold_facts": [
+        {
+          "title": "alfred balk",
+          "sentence_id": 0
+        },
+        {
+          "title": "alfred balk",
+          "sentence_id": 2
+        },
+        {
+          "title": "nelson rockefeller",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.6666666666666666,
+        "matched_facts": [
+          {
+            "title": "alfred balk",
+            "sentence_id": 0
+          },
+          {
+            "title": "alfred balk",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "nelson rockefeller",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Alfred Balk",
+          "Alfred Balk",
+          "Executive Order 10925",
+          "Gerald Ford",
+          "Hubert Thomas Delany",
+          "Cynthia Hogan",
+          "Jefferson Memorial",
+          "Chuck Todd",
+          "Timeline of the presidency of Gerald Ford",
+          "Leonard Downie Jr.",
+          "United States Deputy Secretary of Labor",
+          "Robert R. Hood",
+          "Young Democrats of North Carolina",
+          "First inauguration of Richard Nixon",
+          "Randal Quarles"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.6666666666666666,
+        "matched_facts": [
+          {
+            "title": "alfred balk",
+            "sentence_id": 0
+          },
+          {
+            "title": "alfred balk",
+            "sentence_id": 2
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "nelson rockefeller",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Alfred Balk",
+          "Robert R. Hood",
+          "Cynthia Hogan",
+          "Alfred Balk",
+          "Leonard Downie Jr.",
+          "Executive Order 10925",
+          "Gerald Ford",
+          "Hubert Thomas Delany",
+          "Jefferson Memorial",
+          "Gerald Ford",
+          "Chuck Todd",
+          "Timeline of the presidency of Gerald Ford",
+          "Robert R. Hood",
+          "United States Deputy Secretary of Labor",
+          "Young Democrats of North Carolina"
+        ]
+      }
+    },
+    {
+      "id": "5ab859a955429934fafe6d7b",
+      "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+      "answer": "Phil Spector",
+      "gold_facts": [
+        {
+          "title": "back to mono (1958–1969)",
+          "sentence_id": 0
+        },
+        {
+          "title": "back to mono (1958–1969)",
+          "sentence_id": 1
+        },
+        {
+          "title": "to know him is to love him",
+          "sentence_id": 0
+        }
+      ],
+      "baseline": {
+        "complete": false,
+        "coverage": 0.6666666666666666,
+        "matched_facts": [
+          {
+            "title": "back to mono (1958–1969)",
+            "sentence_id": 0
+          },
+          {
+            "title": "back to mono (1958–1969)",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "to know him is to love him",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Back to Mono (1958–1969)",
+          "Nashville Rebel (box set)",
+          "Back to Mono (1958–1969)",
+          "Chasin' Crazy",
+          "Easter (Marillion song)",
+          "The Road to Hong Kong (soundtrack)",
+          "Mono Masters",
+          "Sing a Simple Song",
+          "Ultimate Hits: Rock and Roll Never Forgets",
+          "Stray Cat Blues",
+          "Mono Masters",
+          "Hammer (song)",
+          "Metropolis (TV series)",
+          "Sing It Back",
+          "The Doors: Vinyl Box Set"
+        ]
+      },
+      "recall_preserving_multihop": {
+        "complete": false,
+        "coverage": 0.6666666666666666,
+        "matched_facts": [
+          {
+            "title": "back to mono (1958–1969)",
+            "sentence_id": 0
+          },
+          {
+            "title": "back to mono (1958–1969)",
+            "sentence_id": 1
+          }
+        ],
+        "missed_facts": [
+          {
+            "title": "to know him is to love him",
+            "sentence_id": 0
+          }
+        ],
+        "retrieved_titles": [
+          "Chasin' Crazy",
+          "Mono Masters",
+          "Sing a Simple Song",
+          "Mono Masters",
+          "Easter (Marillion song)",
+          "Back to Mono (1958–1969)",
+          "Nashville Rebel (box set)",
+          "Back to Mono (1958–1969)",
+          "The Road to Hong Kong (soundtrack)",
+          "Mono Masters",
+          "I Was a Lover, a Leader of Men",
+          "Gimme Shelter",
+          "Ultimate Hits: Rock and Roll Never Forgets",
+          "Stray Cat Blues",
+          "The Original Singles: 1967–1969, Volume 2"
+        ]
+      }
+    }
+  ]
+}

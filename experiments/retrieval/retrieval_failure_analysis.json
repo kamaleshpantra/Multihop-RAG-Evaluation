@@ -1,0 +1,618 @@
+{
+  "retrieval_success": 33,
+  "retrieval_failure": 17,
+  "missed_titles": {
+    "shirley temple": 2,
+    "the hork-bajir chronicles": 3,
+    "adriana trigiani": 1,
+    "androscoggin bank colisée": 1,
+    "for against": 1,
+    "1995–96 manchester united f.c. season": 2,
+    "brown county, kansas": 1,
+    "america east conference": 1,
+    "richard nixon": 1,
+    "lee hazlewood": 1,
+    "virginia commonwealth university": 1,
+    "columbia university": 1,
+    "tata consultancy services": 1,
+    "masakazu katsura": 1,
+    "nelson rockefeller": 1,
+    "to know him is to love him": 1,
+    "world summit of nobel peace laureates": 1
+  },
+  "failure_examples": [
+    {
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "gold_answer": "Chief of Protocol",
+      "matched": [
+        [
+          "kiss and tell (1945 film)",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "shirley temple",
+          0
+        ],
+        [
+          "shirley temple",
+          1
+        ]
+      ],
+      "retrieved_titles": [
+        "Kiss and Tell (1945 film)",
+        "A Kiss for Corliss",
+        "Janet Waldo",
+        "Cheryl Tunt",
+        "Carole Post",
+        "Meet Corliss Archer (TV series)",
+        "The Prodigal Daughter",
+        "Krystal Meadows",
+        "Nora Lewin",
+        "Jessica Walter",
+        "List of Archer episodes",
+        "Judy Greer",
+        "Get Him to the Greek",
+        "Archer (TV series)",
+        "Kris Williams (filmmaker)"
+      ]
+    },
+    {
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "gold_answer": "Animorphs",
+      "matched": [
+        [
+          "animorphs",
+          0
+        ],
+        [
+          "animorphs",
+          1
+        ]
+      ],
+      "missed": [
+        [
+          "the hork-bajir chronicles",
+          0
+        ],
+        [
+          "the hork-bajir chronicles",
+          1
+        ],
+        [
+          "the hork-bajir chronicles",
+          2
+        ]
+      ],
+      "retrieved_titles": [
+        "Animorphs",
+        "A Wind in the Door",
+        "Talking to Dragons",
+        "Victoria Hanley",
+        "Isaac Asimov's Magical Worlds of Fantasy",
+        "Imaginary Worlds: The Art of Fantasy",
+        "Will Grayson, Will Grayson",
+        "The Spiderwick Chronicles",
+        "The Many Worlds of Poul Anderson",
+        "Witches (anthology)",
+        "Wizards (Asimov anthology)",
+        "The Dandelion Girl",
+        "Earthman's Burden",
+        "First North Americans",
+        "Hoka! Hoka! Hoka!"
+      ]
+    },
+    {
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "gold_answer": "Greenwich Village, New York City",
+      "matched": [
+        [
+          "big stone gap (film)",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "adriana trigiani",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Big Stone Gap (film)",
+        "Nola (film)",
+        "The Big Split",
+        "I Love NY (2015 film)",
+        "Manhattan Romance",
+        "Kingston Morning",
+        "Mind the Gap Theatre",
+        "Steve Cosson",
+        "The Yankee Girl",
+        "Crazy Stone (film)",
+        "Oliver Stone",
+        "Force of Execution",
+        "Alexander Garvin",
+        "Whole Lotta Sole",
+        "Christopher Romero"
+      ]
+    },
+    {
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "gold_answer": "3,677 seated",
+      "matched": [
+        [
+          "lewiston maineiacs",
+          1
+        ]
+      ],
+      "missed": [
+        [
+          "androscoggin bank colisée",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Dwyer Arena",
+        "Lewiston Maineiacs",
+        "2006–07 QMJHL season",
+        "Lubbers Stadium",
+        "Tennessee Tech Golden Eagles football",
+        "FIU Panthers football",
+        "Billings Bulls",
+        "Wichita Wild",
+        "UNLV Rebels football",
+        "Toronto Argonauts",
+        "Louisville Thunder",
+        "Case Gym",
+        "2005 Texas Tech Red Raiders football team",
+        "2004 Texas Tech Red Raiders football team",
+        "2002 Texas Tech Red Raiders football team"
+      ]
+    },
+    {
+      "question": "Are Local H and For Against both from the United States?",
+      "gold_answer": "yes",
+      "matched": [
+        [
+          "local h",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "for against",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Local H",
+        "The Team EP",
+        "History of paleontology in the United States",
+        "Amherst, Massachusetts",
+        "Polka",
+        "Reagan Democrat",
+        "Mendocino County GMO Ban",
+        "Kansas Army National Guard",
+        "Stewart Nozette",
+        "H&amp;R Block",
+        "George H. Williams Townhouses",
+        "William H. Cook Water Tank House",
+        "Cline Shale",
+        "Ag-gag",
+        "Hemlock woolly adelgid"
+      ]
+    },
+    {
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "gold_answer": "from 1986 to 2013",
+      "matched": [
+        [
+          "alex ferguson",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "1995–96 manchester united f.c. season",
+          2
+        ],
+        [
+          "1995–96 manchester united f.c. season",
+          3
+        ]
+      ],
+      "retrieved_titles": [
+        "Matt Busby",
+        "Ernest Mangnall",
+        "Alex Ferguson",
+        "Joshua Parlby",
+        "Peter Taylor (footballer, born 1953)",
+        "The Class of '92",
+        "Sir Matt Busby Sports Complex",
+        "David Beckham",
+        "Jack Eskridge",
+        "Manchester United F.C. league record by opponent",
+        "List of Manchester United F.C. seasons",
+        "List of Manchester United F.C. managers",
+        "History of Manchester United F.C. (1945–69)",
+        "Glazer ownership of Manchester United",
+        "1996 FA Charity Shield"
+      ]
+    },
+    {
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "gold_answer": "9,984",
+      "matched": [
+        [
+          "brown state fishing lake",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "brown county, kansas",
+          1
+        ]
+      ],
+      "retrieved_titles": [
+        "Brown State Fishing Lake",
+        "Neosho State Fishing Lake",
+        "Osage State Fishing Lake",
+        "Shawnee State Fishing Lake",
+        "Hong Kong Island",
+        "Higgins Lake",
+        "List of lakes in Wisconsin",
+        "Fishing Lake",
+        "Lobster Lake (Maine)",
+        "Enid Lake",
+        "Commanda Lake",
+        "Winnipeg Beach",
+        "Juprelle",
+        "Arataca",
+        "Higgins Lake, Michigan"
+      ]
+    },
+    {
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "gold_answer": "the North Atlantic Conference",
+      "matched": [
+        [
+          "vermont catamounts men's soccer",
+          0
+        ],
+        [
+          "vermont catamounts men's soccer",
+          1
+        ]
+      ],
+      "missed": [
+        [
+          "america east conference",
+          1
+        ]
+      ],
+      "retrieved_titles": [
+        "Vermont Catamounts men's soccer",
+        "Vermont Catamounts men's basketball",
+        "Vermont Catamounts men's ice hockey",
+        "2016–17 Vermont Catamounts men's basketball team",
+        "2010–11 Vermont Catamounts men's basketball team",
+        "2015–16 Vermont Catamounts men's basketball team",
+        "2012–13 Vermont Catamounts men's basketball team",
+        "2013–14 Vermont Catamounts men's basketball team",
+        "2011–12 Vermont Catamounts men's basketball team",
+        "Vermont Catamounts men's ice hockey",
+        "Robert Morris Colonials men's basketball",
+        "Wake Forest Demon Deacons men's soccer",
+        "Cal Poly Mustangs men's soccer",
+        "1988 Georgia Tech Yellow Jackets football team",
+        "1987 Georgia Tech Yellow Jackets football team"
+      ]
+    },
+    {
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "gold_answer": "1969 until 1974",
+      "matched": [
+        [
+          "roger o. egeberg",
+          2
+        ]
+      ],
+      "missed": [
+        [
+          "richard nixon",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Roger O. Egeberg",
+        "Roger O. Egeberg",
+        "Douglas J. Bennet",
+        "Steven K. Galson",
+        "Steven K. Galson",
+        "Evelyn S. Lieberman",
+        "David Malpass",
+        "William Flynn Martin",
+        "Edward C. Hugler",
+        "Office of Population Affairs",
+        "Alicia Munnell",
+        "Assistant Secretary of State for Public Affairs",
+        "David M. Kennedy",
+        "Tom Bossert",
+        "Robert R. Hood"
+      ]
+    },
+    {
+      "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "gold_answer": "Barton Lee Hazlewood",
+      "matched": [
+        [
+          "these boots are made for walkin'",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "lee hazlewood",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "These Boots Are Made for Walkin'",
+        "Boots (EP)",
+        "The Twenty-fifth Anniversary Anthology",
+        "Boots (album)",
+        "Nancy Sinatra",
+        "Puss N' Boots/These Boots Are Made for Walkin'",
+        "Kon Kan",
+        "Dead Man Walkin'",
+        "Dead in the Boot",
+        "In Her Shoes (novel)",
+        "Dead Man's Shoes (2004 film)",
+        "Ugg boots",
+        "Dr. Martens",
+        "Boots and Hearts Music Festival",
+        "Eric Person"
+      ]
+    },
+    {
+      "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "gold_answer": "1838",
+      "matched": [
+        [
+          "2011–12 vcu rams men's basketball team",
+          2
+        ]
+      ],
+      "missed": [
+        [
+          "virginia commonwealth university",
+          1
+        ]
+      ],
+      "retrieved_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "2010–11 VCU Rams men's basketball team",
+        "2012–13 VCU Rams men's basketball team",
+        "2013–14 VCU Rams men's basketball team",
+        "2014–15 VCU Rams men's basketball team",
+        "2009–10 VCU Rams men's basketball team",
+        "2004–05 VCU Rams men's basketball team",
+        "2015–16 VCU Rams men's basketball team",
+        "1995–96 VCU Rams men's basketball team",
+        "2011–12 Vermont Catamounts men's basketball team",
+        "2011–12 Syracuse Orange men's basketball team",
+        "Old Dominion–VCU basketball rivalry",
+        "2010–11 VCU Rams men's basketball team",
+        "2016–17 Old Dominion Monarchs basketball team",
+        "Rhode Island Rams men's basketball"
+      ]
+    },
+    {
+      "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+      "gold_answer": "New York City",
+      "matched": [
+        [
+          "ralph hefferline",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "columbia university",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Ralph Hefferline",
+        "Robert L. Selman",
+        "Raymond Chang (chemist)",
+        "David C. Funder",
+        "Aaron Brower",
+        "John Markowitz",
+        "Donald Kuspit",
+        "Rodney Benson",
+        "Willard Gaylin",
+        "Frank L. Schmidt",
+        "New York State Psychiatric Institute",
+        "Achille Mbembe",
+        "Mark B. Sobell",
+        "E. Mavis Hetherington",
+        "Beatrice Edgell"
+      ]
+    },
+    {
+      "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+      "gold_answer": "Mumbai",
+      "matched": [
+        [
+          "sachin warrier",
+          3
+        ]
+      ],
+      "missed": [
+        [
+          "tata consultancy services",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Sachin Warrier",
+        "Sachin Bansal",
+        "William Connolley",
+        "Kristof Konrad",
+        "Alec Muffett",
+        "Charles Cecil",
+        "Wes McKinney",
+        "SAP SE",
+        "Arm Holdings",
+        "AVG Technologies",
+        "Utpal K. Banerjee",
+        "Muthuchippi Poloru",
+        "Windmill Software",
+        "Lead programmer",
+        "Lalit Surajmal Kanodia"
+      ]
+    },
+    {
+      "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+      "gold_answer": "1962",
+      "matched": [
+        [
+          "i&quot;s",
+          1
+        ]
+      ],
+      "missed": [
+        [
+          "masakazu katsura",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "I&quot;s",
+        "Haven't You Heard? I'm Sakamoto",
+        "Silver Spoon (manga)",
+        "The Kindaichi Case Files",
+        "Koi Kaze",
+        "Kaze Hikaru",
+        "Shamo (manga)",
+        "Seito Shokun!",
+        "Neuro: Supernatural Detective",
+        "Clear Skies!",
+        "Cross Manage",
+        "I&quot;s",
+        "Manga Bible (series)",
+        "My Bride is a Mermaid",
+        "Toward the Terra"
+      ]
+    },
+    {
+      "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+      "gold_answer": "Nelson Rockefeller",
+      "matched": [
+        [
+          "alfred balk",
+          0
+        ],
+        [
+          "alfred balk",
+          2
+        ]
+      ],
+      "missed": [
+        [
+          "nelson rockefeller",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Alfred Balk",
+        "Alfred Balk",
+        "Executive Order 10925",
+        "Gerald Ford",
+        "Hubert Thomas Delany",
+        "Cynthia Hogan",
+        "Jefferson Memorial",
+        "Chuck Todd",
+        "Timeline of the presidency of Gerald Ford",
+        "Leonard Downie Jr.",
+        "United States Deputy Secretary of Labor",
+        "Robert R. Hood",
+        "Young Democrats of North Carolina",
+        "First inauguration of Richard Nixon",
+        "Randal Quarles"
+      ]
+    },
+    {
+      "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+      "gold_answer": "Phil Spector",
+      "matched": [
+        [
+          "back to mono (1958–1969)",
+          0
+        ],
+        [
+          "back to mono (1958–1969)",
+          1
+        ]
+      ],
+      "missed": [
+        [
+          "to know him is to love him",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Back to Mono (1958–1969)",
+        "Nashville Rebel (box set)",
+        "Back to Mono (1958–1969)",
+        "Chasin' Crazy",
+        "Easter (Marillion song)",
+        "The Road to Hong Kong (soundtrack)",
+        "Mono Masters",
+        "Sing a Simple Song",
+        "Ultimate Hits: Rock and Roll Never Forgets",
+        "Stray Cat Blues",
+        "Mono Masters",
+        "Hammer (song)",
+        "Metropolis (TV series)",
+        "Sing It Back",
+        "The Doors: Vinyl Box Set"
+      ]
+    },
+    {
+      "question": "What type of forum did a former Soviet statesman initiate?",
+      "gold_answer": "Organizations could come together to address global issues",
+      "matched": [
+        [
+          "mikhail gorbachev",
+          0
+        ]
+      ],
+      "missed": [
+        [
+          "world summit of nobel peace laureates",
+          0
+        ]
+      ],
+      "retrieved_titles": [
+        "Mikhail Gorbachev",
+        "Ephraim Sklyansky",
+        "Anastas Mikoyan",
+        "Mikhail Suslov",
+        "Andrei Kirilenko (politician)",
+        "Nikolai Podgorny",
+        "Federation of Conservative Students",
+        "Sergo Mikoyan",
+        "Nikolai Ryzhkov",
+        "Anastas Mikoyan",
+        "Nikita Khrushchev",
+        "Nikolai Uglanov",
+        "Nikolai Krylenko",
+        "Russian Soviet Government Bureau",
+        "MS Excelsior Neptune"
+      ]
+    }
+  ]
+}
