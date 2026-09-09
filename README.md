@@ -7,7 +7,7 @@
 
 A Retrieval-Augmented Generation (RAG) system built to measure not just demo how different retrieval strategies affect multi-hop question answering. It combines dense retrieval, BM25, Reciprocal Rank Fusion, cross-encoder reranking, and a recall-preserving query-expansion step, evaluated end-to-end on the HotpotQA distractor benchmark.
 
-**[Live Demo](YOUR_STREAMLIT_APP_URL)** · **[Repository](https://github.com/kamaleshpantra/Multihop-RAG-Evaluation)**
+**[Live Demo](https://multihop-rag-evaluation.streamlit.app/)** · **[Repository](https://github.com/kamaleshpantra/Multihop-RAG-Evaluation)**
 
 ---
 
