@@ -5,7 +5,7 @@
 ![Tests](https://img.shields.io/badge/tests-pytest-yellow)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-A Retrieval-Augmented Generation (RAG) system built to measure — not just demo — how different retrieval strategies affect multi-hop question answering. It combines dense retrieval, BM25, Reciprocal Rank Fusion, cross-encoder reranking, and a recall-preserving query-expansion step, evaluated end-to-end on the HotpotQA distractor benchmark.
+A Retrieval-Augmented Generation (RAG) system built to measure not just demo how different retrieval strategies affect multi-hop question answering. It combines dense retrieval, BM25, Reciprocal Rank Fusion, cross-encoder reranking, and a recall-preserving query-expansion step, evaluated end-to-end on the HotpotQA distractor benchmark.
 
 **[Live Demo](YOUR_STREAMLIT_APP_URL)** · **[Repository](https://github.com/kamaleshpantra/Multihop-RAG-Evaluation)**
 
@@ -13,7 +13,7 @@ A Retrieval-Augmented Generation (RAG) system built to measure — not just demo
 
 ## What this project answers
 
-Most RAG demos stop at "it works." This one asks: *where* does it work, and *why does it fail* when it doesn't. Every stage — dense retrieval, BM25, fusion, reranking, multi-hop expansion, and final generation — is evaluated in isolation and against each other, with retrieval and generation errors analyzed separately.
+Most RAG demos stop at "it works." This one asks: *where* does it work, and *why does it fail* when it doesn't. Every stage dense retrieval, BM25, fusion, reranking, multi-hop expansion, and final generation is evaluated in isolation and against each other, with retrieval and generation errors analyzed separately.
 
 ## Results
 
