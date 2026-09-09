@@ -1,93 +1,58 @@
-# =========================
 # Python
-# =========================
-
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 *.so
+*.egg-info/
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 env/
 ENV/
 
-# Python packaging
-*.egg-info/
-dist/
-build/
-.eggs/
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# =========================
-# Environment / Secrets
-# =========================
-
+# Environment / secrets
 .env
 .env.*
 !.env.example
 
-# =========================
-# IDE / Editors
-# =========================
-
+# IDE
 .vscode/
 .idea/
-
-# =========================
-# Jupyter
-# =========================
-
 .ipynb_checkpoints/
 
-# =========================
-# OS files
-# =========================
-
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# =========================
-# Logs
-# =========================
-
+# Logs / temporary files
 *.log
+*.tmp
+*.temp
 
-# =========================
-# Project Data
-# =========================
-
-# Raw datasets
-#data/raw/
-
-# Processed/generated datasets
-#data/processed/
-
-# =========================
-# Vector Stores
-# =========================
-
-vectorstore/
-
-# =========================
-# HuggingFace / ML caches
-# =========================
-
+# Model / HuggingFace caches
 .cache/
 huggingface_cache/
 transformers_cache/
+torch_cache/
+models/
 
-# =========================
-# Experiment outputs
-# =========================
-
-experiments/results/
+# Experiment temporary files
 experiments/logs/
+experiments/results/*.tmp
+experiments/results/*.temp
 
-# =========================
-# Temporary files
-# =========================
-
-*.tmp
-*.temp
+# Python build artifacts
+dist/
+build/
+.eggs/
+*.whl

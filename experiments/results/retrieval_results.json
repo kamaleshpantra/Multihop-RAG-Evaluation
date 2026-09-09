@@ -1,0 +1,32 @@
+{
+  "dense": {
+    "recall@1": 0.3372,
+    "recall@5": 0.5775,
+    "recall@10": 0.6436,
+    "mrr": 0.4404
+  },
+  "bm25": {
+    "recall@1": 0.3165,
+    "recall@5": 0.5794,
+    "recall@10": 0.6785,
+    "mrr": 0.4308
+  },
+  "hybrid_rrf_k10": {
+    "recall@1": 0.3485,
+    "recall@5": 0.6612,
+    "recall@10": 0.7411,
+    "mrr": 0.4792
+  },
+  "hybrid_rrf_k20": {
+    "recall@1": 0.3505,
+    "recall@5": 0.659,
+    "recall@10": 0.747,
+    "mrr": 0.4807
+  },
+  "hybrid_reranker_k20": {
+    "recall@1": 0.434,
+    "recall@5": 0.753,
+    "recall@10": 0.7932,
+    "mrr": 0.5731
+  }
+}
