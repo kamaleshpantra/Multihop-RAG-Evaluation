@@ -7,9 +7,8 @@
 
 A research-oriented, multi-hop Retrieval-Augmented Generation (RAG) system that experimentally evaluates dense retrieval, BM25, hybrid retrieval, Reciprocal Rank Fusion (RRF), cross-encoder reranking, multi-hop query expansion, recall-preserving retrieval, and end-to-end answer generation — benchmarked on HotpotQA.
 
-**[Live Demo](https://YOUR-STREAMLIT-APP-URL.streamlit.app)** · **[Repository](https://github.com/kamaleshpantra/Multihop-RAG-Evaluation)**
+**[Live Demo](https://multihop-rag-evaluation.streamlit.app/)** · **[Repository](https://github.com/kamaleshpantra/Multihop-RAG-Evaluation)**
 
-*(Live demo URL to be updated after deployment.)*
 
 ---
 
